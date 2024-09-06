@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2671bd653334d748b8e648c45cbec2c, type: 3}
+  m_Name: AnatIdle1
+  m_EditorClassIdentifier: 
+  Name: 
+  cels:
+  - sprite: {fileID: 265406336, guid: 8a9d0ed33f287314c964914e126867c4, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1415469341, guid: 8a9d0ed33f287314c964914e126867c4, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1847734423, guid: 8a9d0ed33f287314c964914e126867c4, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1799025941, guid: 8a9d0ed33f287314c964914e126867c4, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 782490508, guid: 8a9d0ed33f287314c964914e126867c4, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 66271323, guid: 8a9d0ed33f287314c964914e126867c4, type: 3}
+    drivers:
+      values: 
+      keys: []
+  controlDriverNew:
+    name: 
+    controll: {fileID: 0}
+    autoIncrement: 1
+    percentageBased: 0
+    guid: 80ebe37e-ee78-4b6a-92ec-a92913c43057
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

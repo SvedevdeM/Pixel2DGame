@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78fdd7c50a0553448335fa47abd4178, type: 3}
+  m_Name: DamonikaSwitch
+  m_EditorClassIdentifier: 
+  Name: 
+  nodes:
+  - {fileID: 11400000, guid: 1bd996b6def527d4c93e099943af6fc8, type: 2}
+  - {fileID: 11400000, guid: 195efaa3a3a1267409aa6e5607ce18a6, type: 2}
+  - {fileID: 11400000, guid: e60b6f480b0f2314a89a80d103cc5112, type: 2}
+  controlDriver:
+    name: 
+    controll: {fileID: 11400000, guid: 65188c795d2d5c74a83c73c19ff5a170, type: 2}
+    autoIncrement: 0
+    percentageBased: 0
+    guid: 1f465a77-c0fa-4dc9-bdd9-a0f695d2585e
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

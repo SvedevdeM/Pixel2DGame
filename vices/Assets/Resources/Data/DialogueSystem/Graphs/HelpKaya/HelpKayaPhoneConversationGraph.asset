@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710377662ee5c24c99a823c421eb0b2, type: 3}
+  m_Name: HelpKayaPhoneConversationGraph
+  m_EditorClassIdentifier: 
+  FileName: HelpKayaPhoneConversation
+  Groups: []
+  Nodes:
+  - ID: 1c29e8b6-47d5-45d8-8105-3d825f316a18
+    Name: CP.STORY.HELPKAYA_VENTILATION_0004
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: f8a8d8394a791704d8378eac4ee5bb94, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 761a718d-4d03-43ab-8bce-b019ae3bf81f
+    GroupID: 
+    Type: 1
+    Position: {x: 198, y: 243}
+  - ID: 761a718d-4d03-43ab-8bce-b019ae3bf81f
+    Name: CP.STORY.HELPKAYA_VENTILATION_0003
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: f8a8d8394a791704d8378eac4ee5bb94, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 1
+    Position: {x: 514, y: 243}
+  OldGroupNames: []
+  OldUngroupedNodeNames:
+  - CP.STORY.HELPKAYA_VENTILATION_0004
+  - CP.STORY.HELPKAYA_VENTILATION_0003
+  OldGroupedNodeNames:
+    list: []

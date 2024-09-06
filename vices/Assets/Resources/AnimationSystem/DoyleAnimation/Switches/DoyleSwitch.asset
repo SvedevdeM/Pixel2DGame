@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78fdd7c50a0553448335fa47abd4178, type: 3}
+  m_Name: DoyleSwitch
+  m_EditorClassIdentifier: 
+  Name: 
+  nodes:
+  - {fileID: 11400000, guid: 4339db195fbd58248a9ac08f009a5e10, type: 2}
+  - {fileID: 11400000, guid: 4951e19c86c1eea4eb061f96cff55cb5, type: 2}
+  - {fileID: 11400000, guid: 18e150df37c348540b38236947d9cc96, type: 2}
+  - {fileID: 11400000, guid: 82bdc5a9162dcae4a9c3a2341c0a7ec5, type: 2}
+  controlDriver:
+    name: 
+    controll: {fileID: 11400000, guid: 63a08bd6c3f2525489d8535bc1d9bf99, type: 2}
+    autoIncrement: 0
+    percentageBased: 0
+    guid: 136ab9e6-b472-4f24-a28a-a359c0a9627f
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

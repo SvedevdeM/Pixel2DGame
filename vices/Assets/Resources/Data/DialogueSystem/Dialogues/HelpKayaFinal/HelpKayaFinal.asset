@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b14a46de6ce238489b3e9309c4d902d, type: 3}
+  m_Name: HelpKayaFinal
+  m_EditorClassIdentifier: 
+  FileName: HelpKayaFinal
+  Groups:
+    list: []
+  UngroupedDialogues:
+  - {fileID: 11400000, guid: c05cab803d0d7bd4cbbca8a8169bf074, type: 2}
+  - {fileID: 11400000, guid: e3e650d1518c667439f70250da678f05, type: 2}
+  - {fileID: 11400000, guid: 3198fcdec6468434b84d13e91728cfdd, type: 2}
+  - {fileID: 11400000, guid: 16b6a4ce3bc505149b4b90fedbcf002b, type: 2}
+  - {fileID: 11400000, guid: aae4e1332479fc14db746d7e5c670b82, type: 2}
+  - {fileID: 11400000, guid: 6e347e2282110dc4f8b24a9f38e4a065, type: 2}
+  - {fileID: 11400000, guid: 3b5be662494b0614fa003b2e01b46c58, type: 2}
+  - {fileID: 11400000, guid: b39ff0b027b86c34f9c497c833238669, type: 2}

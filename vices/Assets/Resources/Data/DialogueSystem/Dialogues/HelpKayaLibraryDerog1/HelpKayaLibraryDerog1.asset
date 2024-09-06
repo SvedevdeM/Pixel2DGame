@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b14a46de6ce238489b3e9309c4d902d, type: 3}
+  m_Name: HelpKayaLibraryDerog1
+  m_EditorClassIdentifier: 
+  FileName: HelpKayaLibraryDerog1
+  Groups:
+    list: []
+  UngroupedDialogues:
+  - {fileID: 11400000, guid: 727eff4732447ed43902ed0f3525a5eb, type: 2}
+  - {fileID: 11400000, guid: 21bb4bce89186804482cda2e522f2e53, type: 2}
+  - {fileID: 11400000, guid: de26ce51b29d9c744bf129ca2e37e390, type: 2}

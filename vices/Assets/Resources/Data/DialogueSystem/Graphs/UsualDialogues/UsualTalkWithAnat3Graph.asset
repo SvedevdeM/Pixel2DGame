@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710377662ee5c24c99a823c421eb0b2, type: 3}
+  m_Name: UsualTalkWithAnat3Graph
+  m_EditorClassIdentifier: 
+  FileName: UsualTalkWithAnat3
+  Groups: []
+  Nodes:
+  - ID: c91eaf39-2473-49c7-9ed2-119c8da615a0
+    Name: CP.USUAL.TALKWITHANAT_0007
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 077f49450651f89489b71c26ebd06260, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 24b055a6-2b15-4ff7-abc0-d67600190dd2
+    GroupID: 
+    Type: 1
+    Position: {x: 423, y: 278}
+  - ID: ffe84ce6-182c-4ab9-9b31-a144dfff282b
+    Name: CP.USUAL.TALKWITHANAT_0008
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 077f49450651f89489b71c26ebd06260, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 4b7c11f6-d5fd-4ba6-ad6b-f299fc68ed88
+    GroupID: 
+    Type: 1
+    Position: {x: 943, y: 279}
+  - ID: 4b7c11f6-d5fd-4ba6-ad6b-f299fc68ed88
+    Name: CP.USUAL.TALKWITHANAT_0009
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 077f49450651f89489b71c26ebd06260, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: dc0bf050-c6b1-4f96-8063-0389f30f3c1c
+    GroupID: 
+    Type: 1
+    Position: {x: 1200, y: 277}
+  - ID: 24b055a6-2b15-4ff7-abc0-d67600190dd2
+    Name: CP.KN_USUAL.TALKWITHANAT_0007
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: ffe84ce6-182c-4ab9-9b31-a144dfff282b
+    GroupID: 
+    Type: 1
+    Position: {x: 669, y: 137}
+  - ID: dc0bf050-c6b1-4f96-8063-0389f30f3c1c
+    Name: CP.KN_USUAL.TALKWITHANAT_0009
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 1
+    Position: {x: 1461, y: 141}
+  OldGroupNames: []
+  OldUngroupedNodeNames:
+  - CP.USUAL.TALKWITHANAT_0007
+  - CP.USUAL.TALKWITHANAT_0008
+  - CP.USUAL.TALKWITHANAT_0009
+  - CP.KN_USUAL.TALKWITHANAT_0007
+  - CP.KN_USUAL.TALKWITHANAT_0009
+  OldGroupedNodeNames:
+    list: []

@@ -1,0 +1,2422 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbea623ca79d9a142b0118e36c9d92ae, type: 3}
+  m_Name: FirstDayTable
+  m_EditorClassIdentifier: 
+  Facts:
+  - Name: DocsPickedUp
+    ID: 34058ecf-08f9-422a-b88f-cca4afb1686d
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: PassedTheEntrance
+    ID: 7427da2e-bb16-45cb-8b50-678fdcc73d9b
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: TalkedWithTamir
+    ID: e7bfcaa4-32f4-4574-9a8d-1345826d4d0b
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: StudentIDReceived
+    ID: 827de137-9b66-4740-b78d-107b79fc064b
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: cutsceneCounter
+    ID: 0c4a77c2-a1b8-4f6b-8920-cffa9adc1253
+    Usages: 0
+    Once: 0
+    Value: 1
+  Events:
+  - Name: OnTalkWithTamir
+    ID: aa9a9d72-4336-4300-9e6d-c244a9c51a78
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: PassedTheEntrance
+        ID: 7427da2e-bb16-45cb-8b50-678fdcc73d9b
+        Usages: 0
+        Once: 0
+        Value: 1
+      Type: 3
+      Value: 1
+    Modifications: []
+    Rule:
+      Name: TamirRule
+      ID: 80fee585-fc73-4aed-885f-935f04f679a1
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers:
+      - Name: Tamir1
+        ID: 6d818c35-abcc-45a6-8228-2869779e17d6
+        Usages: 0
+        Once: 0
+        Criterias:
+        - Fact:
+            Name: DocsPickedUp
+            ID: 34058ecf-08f9-422a-b88f-cca4afb1686d
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 5
+          Value: 1
+        Modifications:
+        - Fact:
+            Name: PassedTheEntrance
+            ID: 7427da2e-bb16-45cb-8b50-678fdcc73d9b
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 1
+          Value: 1
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: ac723390372cc354b83f2b1fc4c08fae, type: 2}
+      - Name: Tamir2
+        ID: 17b72292-bd47-4703-9b7b-ac97df966dde
+        Usages: 0
+        Once: 1
+        Criterias: []
+        Modifications:
+        - Fact:
+            Name: TalkedWithTamir
+            ID: e7bfcaa4-32f4-4574-9a8d-1345826d4d0b
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 1
+          Value: 1
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: 25bdbd5014de2a34e9d78d01380c6b56, type: 2}
+      - Name: Tamir3
+        ID: afb01b76-325f-4266-8ad5-b49b0e29c381
+        Usages: 0
+        Once: 0
+        Criterias:
+        - Fact:
+            Name: DocsPickedUp
+            ID: 34058ecf-08f9-422a-b88f-cca4afb1686d
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 3
+          Value: 1
+        - Fact:
+            Name: TalkedWithTamir
+            ID: e7bfcaa4-32f4-4574-9a8d-1345826d4d0b
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 2
+          Value: 1
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: bdc53264f147fa34a88aada86314612c, type: 2}
+      - Name: Tamir4
+        ID: f815ef5c-4d47-4b80-9c0e-e01a24efe175
+        Usages: 0
+        Once: 0
+        Criterias:
+        - Fact:
+            Name: DocsPickedUp
+            ID: 34058ecf-08f9-422a-b88f-cca4afb1686d
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 5
+          Value: 1
+        - Fact:
+            Name: TalkedWithTamir
+            ID: e7bfcaa4-32f4-4574-9a8d-1345826d4d0b
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 2
+          Value: 1
+        Modifications:
+        - Fact:
+            Name: PassedTheEntrance
+            ID: 7427da2e-bb16-45cb-8b50-678fdcc73d9b
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 1
+          Value: 1
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: 2369e4dede563b947b539ea165db220b, type: 2}
+    Type: 0
+    Object: {fileID: 0}
+  - Name: Tamir1
+    ID: 6d818c35-abcc-45a6-8228-2869779e17d6
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: DocsPickedUp
+        ID: 34058ecf-08f9-422a-b88f-cca4afb1686d
+        Usages: 0
+        Once: 0
+        Value: 1
+      Type: 5
+      Value: 1
+    Modifications:
+    - Fact:
+        Name: PassedTheEntrance
+        ID: 7427da2e-bb16-45cb-8b50-678fdcc73d9b
+        Usages: 0
+        Once: 0
+        Value: 1
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: ac723390372cc354b83f2b1fc4c08fae, type: 2}
+  - Name: Tamir2
+    ID: 17b72292-bd47-4703-9b7b-ac97df966dde
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: TalkedWithTamir
+        ID: e7bfcaa4-32f4-4574-9a8d-1345826d4d0b
+        Usages: 0
+        Once: 0
+        Value: 1
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 25bdbd5014de2a34e9d78d01380c6b56, type: 2}
+  - Name: Tamir3
+    ID: afb01b76-325f-4266-8ad5-b49b0e29c381
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: DocsPickedUp
+        ID: 34058ecf-08f9-422a-b88f-cca4afb1686d
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 3
+      Value: 1
+    - Fact:
+        Name: TalkedWithTamir
+        ID: e7bfcaa4-32f4-4574-9a8d-1345826d4d0b
+        Usages: 0
+        Once: 0
+        Value: 1
+      Type: 2
+      Value: 1
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: bdc53264f147fa34a88aada86314612c, type: 2}
+  - Name: Tamir4
+    ID: f815ef5c-4d47-4b80-9c0e-e01a24efe175
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: DocsPickedUp
+        ID: 34058ecf-08f9-422a-b88f-cca4afb1686d
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 5
+      Value: 1
+    - Fact:
+        Name: TalkedWithTamir
+        ID: e7bfcaa4-32f4-4574-9a8d-1345826d4d0b
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 2
+      Value: 1
+    Modifications:
+    - Fact:
+        Name: PassedTheEntrance
+        ID: 7427da2e-bb16-45cb-8b50-678fdcc73d9b
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 2369e4dede563b947b539ea165db220b, type: 2}
+  - Name: DocumentsPickUp
+    ID: 1b7f5c1e-3389-417b-9ed8-ebf6e931a2cb
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: DocsPickedUp
+        ID: 34058ecf-08f9-422a-b88f-cca4afb1686d
+        Usages: 0
+        Once: 0
+        Value: 1
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 030bd8c65c4b8a44a9d324f711a58122, type: 2}
+  - Name: OnTalkWithSecretary
+    ID: ee6fe157-f56e-4176-8702-bd79a3b65f87
+    Usages: 0
+    Once: 0
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: SecretaryRule
+      ID: 8b5f14a3-709e-4c53-ac3f-ef71a25f3ed6
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers:
+      - Name: SecretaryDialogue1
+        ID: e375f8f1-55f1-49fe-b06a-aa321cc4461e
+        Usages: 0
+        Once: 0
+        Criterias:
+        - Fact:
+            Name: StudentIDReceived
+            ID: 827de137-9b66-4740-b78d-107b79fc064b
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 3
+          Value: 1
+        Modifications:
+        - Fact:
+            Name: StudentIDReceived
+            ID: 827de137-9b66-4740-b78d-107b79fc064b
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 1
+          Value: 1
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: 05e0efeb18cb8bf46bbc94959479d4dd, type: 2}
+      - Name: SecretaryDialogue2
+        ID: 380689a3-eb26-4ef6-93b1-1831f543b409
+        Usages: 0
+        Once: 0
+        Criterias:
+        - Fact:
+            Name: StudentIDReceived
+            ID: 827de137-9b66-4740-b78d-107b79fc064b
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 2
+          Value: 1
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: f7ca0b6d13c0fd847bf30187c7a2422b, type: 2}
+    Type: 0
+    Object: {fileID: 11400000, guid: 05e0efeb18cb8bf46bbc94959479d4dd, type: 2}
+  - Name: CutSceneWelcomeSpeech
+    ID: 2e819e00-267e-495a-aa8b-449c51f6e8f9
+    Usages: 0
+    Once: 0
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  - Name: SecretaryDialogue1
+    ID: e375f8f1-55f1-49fe-b06a-aa321cc4461e
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: StudentIDReceived
+        ID: 827de137-9b66-4740-b78d-107b79fc064b
+        Usages: 0
+        Once: 0
+        Value: 1
+      Type: 3
+      Value: 1
+    Modifications:
+    - Fact:
+        Name: StudentIDReceived
+        ID: 827de137-9b66-4740-b78d-107b79fc064b
+        Usages: 0
+        Once: 0
+        Value: 1
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 05e0efeb18cb8bf46bbc94959479d4dd, type: 2}
+  - Name: SecretaryDialogue2
+    ID: 380689a3-eb26-4ef6-93b1-1831f543b409
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: StudentIDReceived
+        ID: 827de137-9b66-4740-b78d-107b79fc064b
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 2
+      Value: 1
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: f7ca0b6d13c0fd847bf30187c7a2422b, type: 2}
+  - Name: CutsceneScore
+    ID: 8a4fe5f0-bdd7-4837-a88b-fcd69546f6eb
+    Usages: 1
+    Once: 0
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: cutsceneCounter
+        ID: 0c4a77c2-a1b8-4f6b-8920-cffa9adc1253
+        Usages: 0
+        Once: 0
+        Value: 1
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  Rules:
+  - Name: TamirRule
+    ID: 80fee585-fc73-4aed-885f-935f04f679a1
+    Usages: 0
+    Once: 0
+    Criterias: []
+    Modifications: []
+    TriggeredBy:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 0
+      Object: {fileID: 0}
+    Triggers:
+    - Name: Tamir1
+      ID: 6d818c35-abcc-45a6-8228-2869779e17d6
+      Usages: 0
+      Once: 0
+      Criterias:
+      - Fact:
+          Name: DocsPickedUp
+          ID: 34058ecf-08f9-422a-b88f-cca4afb1686d
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 5
+        Value: 1
+      Modifications:
+      - Fact:
+          Name: PassedTheEntrance
+          ID: 7427da2e-bb16-45cb-8b50-678fdcc73d9b
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 1
+        Value: 1
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: ac723390372cc354b83f2b1fc4c08fae, type: 2}
+    - Name: Tamir2
+      ID: 17b72292-bd47-4703-9b7b-ac97df966dde
+      Usages: 0
+      Once: 1
+      Criterias: []
+      Modifications:
+      - Fact:
+          Name: TalkedWithTamir
+          ID: e7bfcaa4-32f4-4574-9a8d-1345826d4d0b
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 1
+        Value: 1
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: 25bdbd5014de2a34e9d78d01380c6b56, type: 2}
+    - Name: Tamir3
+      ID: afb01b76-325f-4266-8ad5-b49b0e29c381
+      Usages: 0
+      Once: 0
+      Criterias:
+      - Fact:
+          Name: DocsPickedUp
+          ID: 34058ecf-08f9-422a-b88f-cca4afb1686d
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 3
+        Value: 1
+      - Fact:
+          Name: TalkedWithTamir
+          ID: e7bfcaa4-32f4-4574-9a8d-1345826d4d0b
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 2
+        Value: 1
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: bdc53264f147fa34a88aada86314612c, type: 2}
+    - Name: Tamir4
+      ID: f815ef5c-4d47-4b80-9c0e-e01a24efe175
+      Usages: 0
+      Once: 0
+      Criterias:
+      - Fact:
+          Name: DocsPickedUp
+          ID: 34058ecf-08f9-422a-b88f-cca4afb1686d
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 5
+        Value: 1
+      - Fact:
+          Name: TalkedWithTamir
+          ID: e7bfcaa4-32f4-4574-9a8d-1345826d4d0b
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 2
+        Value: 1
+      Modifications:
+      - Fact:
+          Name: PassedTheEntrance
+          ID: 7427da2e-bb16-45cb-8b50-678fdcc73d9b
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 1
+        Value: 1
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: 2369e4dede563b947b539ea165db220b, type: 2}
+  - Name: SecretaryRule
+    ID: 8b5f14a3-709e-4c53-ac3f-ef71a25f3ed6
+    Usages: 0
+    Once: 0
+    Criterias: []
+    Modifications: []
+    TriggeredBy:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 0
+      Object: {fileID: 0}
+    Triggers:
+    - Name: SecretaryDialogue1
+      ID: e375f8f1-55f1-49fe-b06a-aa321cc4461e
+      Usages: 0
+      Once: 0
+      Criterias:
+      - Fact:
+          Name: StudentIDReceived
+          ID: 827de137-9b66-4740-b78d-107b79fc064b
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 3
+        Value: 1
+      Modifications:
+      - Fact:
+          Name: StudentIDReceived
+          ID: 827de137-9b66-4740-b78d-107b79fc064b
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 1
+        Value: 1
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: 05e0efeb18cb8bf46bbc94959479d4dd, type: 2}
+    - Name: SecretaryDialogue2
+      ID: 380689a3-eb26-4ef6-93b1-1831f543b409
+      Usages: 0
+      Once: 0
+      Criterias:
+      - Fact:
+          Name: StudentIDReceived
+          ID: 827de137-9b66-4740-b78d-107b79fc064b
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 2
+        Value: 1
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: f7ca0b6d13c0fd847bf30187c7a2422b, type: 2}

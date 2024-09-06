@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78fdd7c50a0553448335fa47abd4178, type: 3}
+  m_Name: YinSwitch
+  m_EditorClassIdentifier: 
+  Name: 
+  nodes:
+  - {fileID: 11400000, guid: c3ca0af34e1a45e46aab9bd06edbecee, type: 2}
+  - {fileID: 11400000, guid: a06c8ba4abd565a42a1138c8ebe4c4b3, type: 2}
+  controlDriver:
+    name: 
+    controll: {fileID: 11400000, guid: 6bbd3e1058ff7af42a8f47d04e94cbc7, type: 2}
+    autoIncrement: 0
+    percentageBased: 0
+    guid: aeb12a0e-b202-49b2-b260-cf947561fd03
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

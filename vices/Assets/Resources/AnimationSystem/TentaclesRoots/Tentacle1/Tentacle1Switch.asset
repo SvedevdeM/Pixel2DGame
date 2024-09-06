@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78fdd7c50a0553448335fa47abd4178, type: 3}
+  m_Name: Tentacle1Switch
+  m_EditorClassIdentifier: 
+  Name: 
+  nodes:
+  - {fileID: 11400000, guid: f0c8e1fdf1b1f384081a487b36386449, type: 2}
+  - {fileID: 11400000, guid: eba81b1aa642ec44081b598d8016c74a, type: 2}
+  controlDriver:
+    name: 
+    controll: {fileID: 11400000, guid: 278504c923b5949419deca22b0c24e10, type: 2}
+    autoIncrement: 0
+    percentageBased: 0
+    guid: 83ea89f7-203f-49a9-8536-21208b51360c
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

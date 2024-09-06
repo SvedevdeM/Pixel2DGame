@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710377662ee5c24c99a823c421eb0b2, type: 3}
+  m_Name: CatQuestCorpseFound2Graph
+  m_EditorClassIdentifier: 
+  FileName: 
+  Groups: []
+  Nodes:
+  - ID: 8a741970-8079-4c30-9889-6d52ad4b4475
+    Name: CP.KN_SPQUEST.CAT_LOFAPARK_0002
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 85eff4ba-4fc3-485b-84d8-82840a672731
+    GroupID: 
+    Type: 1
+    Position: {x: 350, y: 194}
+  - ID: 85eff4ba-4fc3-485b-84d8-82840a672731
+    Name: CP.KN_SPQUEST.CAT_LOFAPARK_0003
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 1
+    Position: {x: 678, y: 194}
+  OldGroupNames: []
+  OldUngroupedNodeNames:
+  - CP.KN_SPQUEST.CAT_LOFAPARK_0002
+  - CP.KN_SPQUEST.CAT_LOFAPARK_0003
+  OldGroupedNodeNames:
+    list: []

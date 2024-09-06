@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2671bd653334d748b8e648c45cbec2c, type: 3}
+  m_Name: Tentacle2Start
+  m_EditorClassIdentifier: 
+  Name: 
+  cels:
+  - sprite: {fileID: -1784304811, guid: dffbfe54ee782774b81994e71d7902b9, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -1825051153, guid: dffbfe54ee782774b81994e71d7902b9, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -446025980, guid: dffbfe54ee782774b81994e71d7902b9, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -382186824, guid: dffbfe54ee782774b81994e71d7902b9, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -602752518, guid: dffbfe54ee782774b81994e71d7902b9, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -1672391298, guid: dffbfe54ee782774b81994e71d7902b9, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -2086698176, guid: dffbfe54ee782774b81994e71d7902b9, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 477912230, guid: dffbfe54ee782774b81994e71d7902b9, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -673398116, guid: dffbfe54ee782774b81994e71d7902b9, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -1658468228, guid: dffbfe54ee782774b81994e71d7902b9, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1093414981, guid: dffbfe54ee782774b81994e71d7902b9, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -737672694, guid: dffbfe54ee782774b81994e71d7902b9, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1437441482, guid: dffbfe54ee782774b81994e71d7902b9, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -199820977, guid: dffbfe54ee782774b81994e71d7902b9, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 2123196942, guid: dffbfe54ee782774b81994e71d7902b9, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -237207838, guid: dffbfe54ee782774b81994e71d7902b9, type: 3}
+    drivers:
+      values: 
+      keys: []
+  controlDriverNew:
+    name: 
+    controll: {fileID: 0}
+    autoIncrement: 1
+    percentageBased: 0
+    guid: 100eaeb2-1fb5-455f-b54a-ff983925fb78
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

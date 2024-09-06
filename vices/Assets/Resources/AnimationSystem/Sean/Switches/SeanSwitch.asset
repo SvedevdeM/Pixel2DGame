@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78fdd7c50a0553448335fa47abd4178, type: 3}
+  m_Name: SeanSwitch
+  m_EditorClassIdentifier: 
+  Name: 
+  nodes:
+  - {fileID: 11400000, guid: 35e244d7459496548ac1e48bb379025e, type: 2}
+  - {fileID: 11400000, guid: bb51739dcbf5a8c4797cd7e3c5769d60, type: 2}
+  controlDriver:
+    name: 
+    controll: {fileID: 11400000, guid: 5ccab0a52b3cf5048b4bfb0612500af1, type: 2}
+    autoIncrement: 0
+    percentageBased: 0
+    guid: 6d08238a-4835-4283-b66d-1ee1591f8e37
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

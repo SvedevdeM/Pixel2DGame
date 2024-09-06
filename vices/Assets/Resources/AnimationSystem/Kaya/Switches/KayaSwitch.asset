@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78fdd7c50a0553448335fa47abd4178, type: 3}
+  m_Name: KayaSwitch
+  m_EditorClassIdentifier: 
+  Name: 
+  nodes:
+  - {fileID: 11400000, guid: 90ea817796b1a21469d5e628e328467f, type: 2}
+  - {fileID: 11400000, guid: f19dcf42e5a1245468bc33a989b06cac, type: 2}
+  - {fileID: 11400000, guid: 3445c6e5563cd79488606d64f795ea87, type: 2}
+  - {fileID: 11400000, guid: 56a1246575e3540488d499b0749f3929, type: 2}
+  - {fileID: 11400000, guid: a9463e864f07e4a4e8a4ca09458b0528, type: 2}
+  - {fileID: 11400000, guid: 387775c007e90cc469ad9b5200b2e41a, type: 2}
+  - {fileID: 11400000, guid: d126412ef391bcd4ba2f24fdad6e190e, type: 2}
+  controlDriver:
+    name: 
+    controll: {fileID: 11400000, guid: b42da3f06838ff2488571241a1280a47, type: 2}
+    autoIncrement: 0
+    percentageBased: 0
+    guid: 9acf704a-74ad-458f-bbba-fa8c32dfbe1a
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

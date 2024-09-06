@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b14a46de6ce238489b3e9309c4d902d, type: 3}
+  m_Name: UsualStudentBoyDialogue3
+  m_EditorClassIdentifier: 
+  FileName: UsualStudentBoyDialogue3
+  Groups:
+    list: []
+  UngroupedDialogues:
+  - {fileID: 11400000, guid: e47ba540486c9fc4e9f0618048dfed17, type: 2}
+  - {fileID: 11400000, guid: 125959e6740114f4e9c88bda445c84dc, type: 2}
+  - {fileID: 11400000, guid: bc824c569ff7d4f47b32c8dc9c3faf39, type: 2}

@@ -1,0 +1,2724 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbea623ca79d9a142b0118e36c9d92ae, type: 3}
+  m_Name: CatQuestTable
+  m_EditorClassIdentifier: 
+  Facts:
+  - Name: CatQuestAccepted
+    ID: eabdc9fc-2b5d-4c24-9580-b51e8a839f1f
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: CatQuestDiscard
+    ID: 47f64b2c-49c7-40d3-8d51-e4f2e9dc5f17
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: CatCorpsFound
+    ID: 33fdb8a1-ef60-4148-893a-ac586f6886be
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: CatQuestDone
+    ID: b3f1713c-d25b-4a18-9ce5-6453b6ca77f6
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: CatQuestEvilDone
+    ID: f655993a-5856-4782-aff3-43ddf131505b
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: CatPickedUp
+    ID: 426df314-52a4-4b92-87cd-3d719a3da05f
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: CatKilled
+    ID: 87a2c380-a800-4a8f-ba75-5c20032887aa
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: CatStolen
+    ID: 7b006941-0ced-4c75-9f7d-31541039032b
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: CatQuestSeen
+    ID: 8823ac0b-cff8-4453-a444-305d086393f9
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: baitSeen
+    ID: cd423121-8cbc-46df-869d-ba79cf987869
+    Usages: 0
+    Once: 0
+    Value: 2
+  Events:
+  - Name: CatQuestStart
+    ID: 2e7d272d-434e-469f-9ae0-4007bd3e4681
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 232f1de14fdd9bc4388c1f12286483db, type: 2}
+  - Name: OnTalkWithYin
+    ID: 074156ed-a6f6-4ee7-9d1f-451a7839baf2
+    Usages: 0
+    Once: 0
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: YinChecker
+      ID: 38ea5d6f-9dbc-4c6f-8445-4b1363c7e4d5
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers:
+      - Name: CatQuestStart
+        ID: 2e7d272d-434e-469f-9ae0-4007bd3e4681
+        Usages: 0
+        Once: 1
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 0}
+      - Name: CatQuestNoFinal
+        ID: ff488a09-290f-45c0-a547-2fd9f1fa2bbd
+        Usages: 0
+        Once: 0
+        Criterias:
+        - Fact:
+            Name: CatQuestDiscard
+            ID: 47f64b2c-49c7-40d3-8d51-e4f2e9dc5f17
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 2
+          Value: 1
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: 8775b17bb3a676f488a2bb3b0755af42, type: 2}
+    Type: 0
+    Object: {fileID: 0}
+  - Name: CatQuestYes
+    ID: f265540b-c7ad-42b9-af0f-32b19a800859
+    Usages: 0
+    Once: 0
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: CatQuestAccepted
+        ID: eabdc9fc-2b5d-4c24-9580-b51e8a839f1f
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  - Name: CatQuestNo
+    ID: 20e9f0db-670b-4e6c-b045-712aad623e87
+    Usages: 0
+    Once: 0
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: CatQuestDiscard
+        ID: 47f64b2c-49c7-40d3-8d51-e4f2e9dc5f17
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  - Name: CatQuestNoFinal
+    ID: ff488a09-290f-45c0-a547-2fd9f1fa2bbd
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: CatQuestDiscard
+        ID: 47f64b2c-49c7-40d3-8d51-e4f2e9dc5f17
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 2
+      Value: 1
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 8775b17bb3a676f488a2bb3b0755af42, type: 2}
+  - Name: CatQuestPickUpCat
+    ID: 21480590-60ff-4983-aeb7-2083a22a9f49
+    Usages: 0
+    Once: 0
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: CatPickedUp
+        ID: 426df314-52a4-4b92-87cd-3d719a3da05f
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 3c58ed1804ad58b4d9f2eadddae5a556, type: 2}
+  - Name: CatCorpse1
+    ID: a283a8dc-8a0a-48dc-84d8-ba0769a7ede2
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: CatCorpsFound
+        ID: 33fdb8a1-ef60-4148-893a-ac586f6886be
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  - Name: CatCorpse2
+    ID: 70da511b-a756-4809-b36f-6c1bec5eab33
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: CatCorpsFound
+        ID: 33fdb8a1-ef60-4148-893a-ac586f6886be
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  - Name: CatCorpse3
+    ID: a228c386-e01e-4cdf-b9ac-1931eb78cf23
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: CatCorpsFound
+        ID: 33fdb8a1-ef60-4148-893a-ac586f6886be
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  - Name: CatCorpse4
+    ID: 8fe096ff-d04f-4628-ac20-6e31182f5f0e
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: CatCorpsFound
+        ID: 33fdb8a1-ef60-4148-893a-ac586f6886be
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  - Name: CatCorpse5
+    ID: 5ba19280-b42f-4910-961c-adfc1ee10e01
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: CatCorpsFound
+        ID: 33fdb8a1-ef60-4148-893a-ac586f6886be
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  - Name: CatCorpse6
+    ID: fccd2a64-086d-470a-bb2c-2b2cc0d32946
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: CatCorpsFound
+        ID: 33fdb8a1-ef60-4148-893a-ac586f6886be
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  - Name: CatCorpse7
+    ID: e1cabc77-d858-47d1-b933-de880218102e
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: CatCorpsFound
+        ID: 33fdb8a1-ef60-4148-893a-ac586f6886be
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  - Name: CatCorpse8
+    ID: e3d81d54-ce2a-4b66-adb6-28a45e02418b
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: CatCorpsFound
+        ID: 33fdb8a1-ef60-4148-893a-ac586f6886be
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  - Name: CatQuestEvil
+    ID: fa8118ca-59c4-438f-b3c0-b4d6e00d7f2e
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 73e93698907e1d444a4a4a7429e4aa56, type: 2}
+  - Name: KillDaCat
+    ID: 2c89f5cc-efd7-402c-be42-6aa6b46a666d
+    Usages: 0
+    Once: 0
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: CatKilled
+        ID: 87a2c380-a800-4a8f-ba75-5c20032887aa
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  - Name: CatQuestEvilFinal
+    ID: 11d032cb-532c-43c8-81c4-1c130e2f7af2
+    Usages: 0
+    Once: 1
+    Criterias:
+    - Fact:
+        Name: CatKilled
+        ID: 87a2c380-a800-4a8f-ba75-5c20032887aa
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 2
+      Value: 1
+    Modifications:
+    - Fact:
+        Name: CatQuestEvilDone
+        ID: f655993a-5856-4782-aff3-43ddf131505b
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 930407e397f762f4e96187d42d372b20, type: 2}
+  - Name: CatQuestFinal
+    ID: 35cef6c1-89c3-4f27-a58b-00ae483ae6e5
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: CatPickedUp
+        ID: 426df314-52a4-4b92-87cd-3d719a3da05f
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 2
+      Value: 1
+    - Fact:
+        Name: CatKilled
+        ID: 87a2c380-a800-4a8f-ba75-5c20032887aa
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 4
+      Value: 0
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 7282551ba61d2f24bb756660ab454535, type: 2}
+  - Name: CatGiven
+    ID: 543c7e10-21f5-4488-a9d3-066457ff8e60
+    Usages: 0
+    Once: 0
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: CatQuestDone
+        ID: b3f1713c-d25b-4a18-9ce5-6453b6ca77f6
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  - Name: CatStole
+    ID: f9ded9a5-f2b4-4b14-b352-4b4a54ae544c
+    Usages: 0
+    Once: 0
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: CatStolen
+        ID: 7b006941-0ced-4c75-9f7d-31541039032b
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  - Name: CatQuestBaitSeen
+    ID: 67c0cba3-762c-4dd1-be7d-1b939f7e0340
+    Usages: 2
+    Once: 0
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: baitSeen
+        ID: cd423121-8cbc-46df-869d-ba79cf987869
+        Usages: 0
+        Once: 0
+        Value: 2
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  Rules:
+  - Name: YinChecker
+    ID: 38ea5d6f-9dbc-4c6f-8445-4b1363c7e4d5
+    Usages: 0
+    Once: 0
+    Criterias: []
+    Modifications: []
+    TriggeredBy:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 0
+      Object: {fileID: 0}
+    Triggers:
+    - Name: CatQuestStart
+      ID: 2e7d272d-434e-469f-9ae0-4007bd3e4681
+      Usages: 0
+      Once: 1
+      Criterias: []
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 0}
+    - Name: CatQuestNoFinal
+      ID: ff488a09-290f-45c0-a547-2fd9f1fa2bbd
+      Usages: 0
+      Once: 0
+      Criterias:
+      - Fact:
+          Name: CatQuestDiscard
+          ID: 47f64b2c-49c7-40d3-8d51-e4f2e9dc5f17
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 2
+        Value: 1
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: 8775b17bb3a676f488a2bb3b0755af42, type: 2}
+    - Name: CatQuestEvilFinal
+      ID: 11d032cb-532c-43c8-81c4-1c130e2f7af2
+      Usages: 0
+      Once: 1
+      Criterias:
+      - Fact:
+          Name: CatKilled
+          ID: 87a2c380-a800-4a8f-ba75-5c20032887aa
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 2
+        Value: 1
+      Modifications:
+      - Fact:
+          Name: CatQuestEvilDone
+          ID: f655993a-5856-4782-aff3-43ddf131505b
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 1
+        Value: 1
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: 930407e397f762f4e96187d42d372b20, type: 2}
+    - Name: CatQuestFinal
+      ID: 35cef6c1-89c3-4f27-a58b-00ae483ae6e5
+      Usages: 0
+      Once: 0
+      Criterias:
+      - Fact:
+          Name: CatPickedUp
+          ID: 426df314-52a4-4b92-87cd-3d719a3da05f
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 2
+        Value: 1
+      - Fact:
+          Name: CatKilled
+          ID: 87a2c380-a800-4a8f-ba75-5c20032887aa
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 4
+        Value: 0
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: 7282551ba61d2f24bb756660ab454535, type: 2}

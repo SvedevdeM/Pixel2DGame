@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710377662ee5c24c99a823c421eb0b2, type: 3}
+  m_Name: UsualStudentGirl4Dialogue1Graph
+  m_EditorClassIdentifier: 
+  FileName: UsualStudentGirl4Dialogue1
+  Groups: []
+  Nodes:
+  - ID: feaaa715-8604-4035-aaa5-c51288909f10
+    Name: CP.KN_USUAL.TALKWITHSTUDENT0001
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next dialogue
+      NodeID: b6b5985e-2cb1-4db6-ad44-23fe24c0a719
+    GroupID: 
+    Type: 1
+    Position: {x: 545, y: 218}
+  - ID: fc6795ab-724c-42c2-a0fd-1d2e4b234c68
+    Name: CP.USUAL.TALKWITHSTUDENT0001
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 7967be19497440b44b4b3ce1b7af0fa9, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next dialogue
+      NodeID: feaaa715-8604-4035-aaa5-c51288909f10
+    GroupID: 
+    Type: 1
+    Position: {x: 275, y: 354}
+  - ID: b6b5985e-2cb1-4db6-ad44-23fe24c0a719
+    Name: CP.USUAL.TALKWITHSTUDENT0002
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 7967be19497440b44b4b3ce1b7af0fa9, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next dialogue
+      NodeID: 
+    GroupID: 
+    Type: 1
+    Position: {x: 830, y: 354}
+  OldGroupNames: []
+  OldUngroupedNodeNames:
+  - CP.KN_USUAL.TALKWITHSTUDENT0001
+  - CP.USUAL.TALKWITHSTUDENT0001
+  - CP.USUAL.TALKWITHSTUDENT0002
+  OldGroupedNodeNames:
+    list: []

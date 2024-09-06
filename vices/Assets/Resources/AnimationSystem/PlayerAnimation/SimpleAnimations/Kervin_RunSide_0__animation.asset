@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2671bd653334d748b8e648c45cbec2c, type: 3}
+  m_Name: Kervin_RunSide_0__animation
+  m_EditorClassIdentifier: 
+  Name: 
+  cels:
+  - sprite: {fileID: 125589828, guid: a8ff2e414461f1a43bac420e982a431a, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 125589828, guid: a8ff2e414461f1a43bac420e982a431a, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1899136183, guid: a8ff2e414461f1a43bac420e982a431a, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1899136183, guid: a8ff2e414461f1a43bac420e982a431a, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -1255585195, guid: a8ff2e414461f1a43bac420e982a431a, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -1255585195, guid: a8ff2e414461f1a43bac420e982a431a, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 270192401, guid: a8ff2e414461f1a43bac420e982a431a, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 270192401, guid: a8ff2e414461f1a43bac420e982a431a, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -1477889458, guid: a8ff2e414461f1a43bac420e982a431a, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -1477889458, guid: a8ff2e414461f1a43bac420e982a431a, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 984141666, guid: a8ff2e414461f1a43bac420e982a431a, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 984141666, guid: a8ff2e414461f1a43bac420e982a431a, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 125589828, guid: a8ff2e414461f1a43bac420e982a431a, type: 3}
+    drivers:
+      values: 
+      keys: []
+  controlDriverNew:
+    name: 
+    controll: {fileID: 0}
+    autoIncrement: 1
+    percentageBased: 0
+    guid: 95bf5c49-c066-4ce6-9d26-82ac8d6ae5af
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

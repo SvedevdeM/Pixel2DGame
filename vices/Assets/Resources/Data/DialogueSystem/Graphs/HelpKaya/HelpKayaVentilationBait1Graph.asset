@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710377662ee5c24c99a823c421eb0b2, type: 3}
+  m_Name: HelpKayaVentilationBait1Graph
+  m_EditorClassIdentifier: 
+  FileName: HelpKayaVentilationBait1
+  Groups: []
+  Nodes:
+  - ID: 55a8fab8-40d4-4850-b808-0bf77075807b
+    Name: CP.STORY.HELPKAYA_VENTILATIONBAIT_0002
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 7ec8bbd165197ff40a59c40668bd14ee, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 1
+    Position: {x: 515, y: 131}
+  - ID: 1c29e8b6-47d5-45d8-8105-3d825f316a18
+    Name: CP.STORY.HELPKAYA_VENTILATIONBAIT_0001
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 9e48d78a57e5ffa48b147f5e14fda2e9, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 55a8fab8-40d4-4850-b808-0bf77075807b
+    GroupID: 
+    Type: 1
+    Position: {x: 171, y: 286}
+  OldGroupNames: []
+  OldUngroupedNodeNames:
+  - CP.STORY.HELPKAYA_VENTILATIONBAIT_0002
+  - CP.STORY.HELPKAYA_VENTILATIONBAIT_0001
+  OldGroupedNodeNames:
+    list: []

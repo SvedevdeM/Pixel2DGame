@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b14a46de6ce238489b3e9309c4d902d, type: 3}
+  m_Name: UsualTalkWithValentia1
+  m_EditorClassIdentifier: 
+  FileName: UsualTalkWithValentia1
+  Groups:
+    list: []
+  UngroupedDialogues:
+  - {fileID: 11400000, guid: 14b1767aa6ef7d5438317a34615a2672, type: 2}
+  - {fileID: 11400000, guid: 24b5eeef2539f7248bd7aab41984fa86, type: 2}
+  - {fileID: 11400000, guid: d5948923e46214646abc48967a6f11bb, type: 2}
+  - {fileID: 11400000, guid: 580d8e4f1da12914582b031184f56380, type: 2}
+  - {fileID: 11400000, guid: 9df255080f2c62949a02a099325c36b7, type: 2}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710377662ee5c24c99a823c421eb0b2, type: 3}
+  m_Name: OldStreetLightDescriptonGraph
+  m_EditorClassIdentifier: 
+  FileName: OldStreetLightDescripton
+  Groups: []
+  Nodes:
+  - ID: fa95c902-26be-4c57-93a2-2217d25f1d81
+    Name: CONST.KN_OBJECT.OLDSTREETLIGHT
+    Text: 
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next dialogue
+      NodeID: 
+    GroupID: 
+    Type: 1
+    Position: {x: 201, y: -18}
+  OldGroupNames: []
+  OldUngroupedNodeNames:
+  - CONST.KN_OBJECT.OLDSTREETLIGHT
+  OldGroupedNodeNames:
+    list: []

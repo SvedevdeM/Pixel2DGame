@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710377662ee5c24c99a823c421eb0b2, type: 3}
+  m_Name: CatQuestEvilGraph
+  m_EditorClassIdentifier: 
+  FileName: 
+  Groups: []
+  Nodes:
+  - ID: e817f61e-12ab-4428-97c1-17c7f194d9d8
+    Name: KILLDACAT
+    Text: Some text of the dialogue
+    Actor: {fileID: 0}
+    Event: {fileID: 11400000, guid: 9b39dab46da961147a508ba913678885, type: 2}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 3
+    Position: {x: 911, y: -92}
+  - ID: a245619c-8a90-4f7b-937f-f9226bf7c48a
+    Name: CP.KN_SPQUEST.CAT_EVIL_0001
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: CP.CH_SQUEST.CAT_EVIL_YES_001
+      NodeID: ed3a1c4f-4fa4-49d0-9a4f-f5ced5250e4d
+    - Text: CP.CH_SQUEST.CAT_EVIL_NO_001
+      NodeID: fd725382-3cd2-4267-a03d-61497369ba0b
+    GroupID: 
+    Type: 2
+    Position: {x: 150, y: 92}
+  - ID: ed3a1c4f-4fa4-49d0-9a4f-f5ced5250e4d
+    Name: CP.KN_SPQUEST.CAT_EVIL_YES_0001
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: e817f61e-12ab-4428-97c1-17c7f194d9d8
+    GroupID: 
+    Type: 1
+    Position: {x: 611, y: -88}
+  - ID: fd725382-3cd2-4267-a03d-61497369ba0b
+    Name: CP.KN_SPQUEST.CAT_EVIL_NO_0001
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 1
+    Position: {x: 609, y: 316}
+  OldGroupNames: []
+  OldUngroupedNodeNames:
+  - KILLDACAT
+  - CP.KN_SPQUEST.CAT_EVIL_0001
+  - CP.KN_SPQUEST.CAT_EVIL_YES_0001
+  - CP.KN_SPQUEST.CAT_EVIL_NO_0001
+  OldGroupedNodeNames:
+    list: []

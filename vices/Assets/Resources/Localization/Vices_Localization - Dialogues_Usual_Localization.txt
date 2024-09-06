@@ -1,0 +1,74 @@
+ID	GROUP	SUB_GROUP	LOCALIZATION_KEY	RU	ENG	FRA	DEU	SPA	POL	POR	CHI	ITA	KOR
+1	CP	USUAL	TALKWITHSTUDENT0001	Наконец-то я в Латреяградском Колледже! Мечта сбылась!	I dreamed so much of successfully passing the Latreya College exams!								
+2	CP	USUAL	TALKWITHSTUDENT0002	Ты шутишь? Это один из лучших колледжей мира!	Are you serious? Cause it's one of the best in the world!								
+3	CP	USUAL	TALKWITHSTUDENT0011	Мой папа - писатель, так что я тоже учусь на литературном!	My dad is a writer, so I enrolled in the literature department!								
+4	CP	USUAL	TALKWITHSTUDENT0012	О, мне так жаль...	Oh, i'm so sorry about that...								
+5	CP	USUAL	TALKWITHSTUDENT0013	Дурацкие у тебя шутки!	Nah, whatta stupid joke!								
+6	CP	KN_USUAL	TALKWITHSTUDENT0001	О, и что в нем такого особенного?	Oh, why did you choose this college?								
+7	CP	KN_USUAL	TALKWITHSTUDENT0011	А мой папа ушел, когда мне было семь. Так что я тоже съехал из дома.	My dad left when I was seven. So I moved out of the house too.								
+8	CP	KN_USUAL	TALKWITHSTUDENT0012	Ничего, я пошутил, не воспринимай всерьез.	Never mind. Just kidding								
+9	CP	USUAL	TALKWITHSTUDENT0021	Ты знаешь расписание на завтра? Я так волнуюсь перед первым днем, что ничего не могу запомнить!	Do you know the schedule for tomorrow? I'm so worried before the first day that I can't remember anything!								
+10	CP	USUAL	TALKWITHSTUDENT0022	Спрошу у кого нибудь другого.	I'll ask someone else.								
+11	CP	KN_USUAL	TALKWITHSTUDENT0021	Нет, я не знаю твое расписание. Я уверен, что мы в разных группах.	No, I do not know your schedule. I'm sure we're in different groups.								
+12	CP	USUAL	TALKWITHSTUDENT0031	Философия, Английский, Информатика... А, прости, ты что-то хотел?	Philosophy, English, Computer Science... Oh, I'm sorry, did you ask something?								
+13	CP	USUAL	TALKWITHSTUDENT0032	Ой, нет, у меня ничего нет. Но я слышал что где-то в главном корпусе есть парень, который торгует всяким.	Oh, no, I don't have anything. But I heard that somewhere in the main building there is a guy who sells stuff.								
+14	CP	KN_USUAL	TALKWITHSTUDENT0031	У тебя, случайно, ничего нет от головной боли? Голова раскалывается...	Do you have any headache pills? My head is going to explode...								
+15	CP	USUAL	TALKWITHSTUDENT0041	Ты слышал о закрытой территории в большом парке, говорят там есть призрак!	Have you heard about the closed area in the big park, i heard there is a ghost there!								
+16	CP	USUAL	TALKWITHSTUDENT0042	Ой, ты точно не из тех, кто верит в сверхьестественное. Раз так, нам не о чем разговаривать	Oh, you're definitely not one of those people who believes in the supernatural. If that's the case, we have nothing to talk about.								
+17	CP	KN_USUAL	TALKWITHSTUDENT0041	Говорят, призраков не существует.	I heard that ghosts do not exist.								
+18	CP	SR_USUAL	TALKWITHSYLVESTER_0001	Привет еще раз, Кервин. Как тебе наш кампус, красивый, правда?	Hello again, Kerwin. How do you like our campus, isn't it beautiful?								
+19	CP	KN_USUAL	TALKWITHSYLVESTER_0001	Да, мне очень нравится.	Yes, I really like it.								
+20	CP	SR_USUAL	TALKWITHSYLVESTER_0002	Рад слышать! Завтра начнутся занятия, вот твое расписание.	Glad to hear it! Classes start tomorrow, here's your schedule.								
+21	CP	KN_USUAL	TALKWITHSYLVESTER_0002	Спасибо!	Thanks!								
+22	CP	SR_USUAL	TALKWITHSYLVESTER_0003	Кервин? Ты что-то хотел?	Kerwin? Did you want something?								
+23	CP	KN_USUAL	TALKWITHSYLVESTER_0003	Нет, ничего, я уже ухожу.	No, it's okay, I'm already leaving.								
+24	CP	SR_USUAL	TALKWITHSYLVESTER_0004	Хорошего дня!	Have a nice day!								
+25	CP	KN_USUAL	TALKWITHSYLVESTER_0004	И вам!	You too!								
+26	CP	KN_USUAL	TALKWITHSYLVESTER_0005	Профессор, Сильвестр, у вас такие необычные волосы, никогда не видел такого цвета.	Professor, Sylvester, you have such unusual hair, I've never seen such a color.								
+27	CP	SR_USUAL	TALKWITHSYLVESTER_0005	Да, это семейное. У моего отца Эрика были такие же. Да и у брата Пьетро тоже...	Yes, it's a family thing. My father Eric had the same ones. And so does Brother Pietro...								
+28	CP	KN_USUAL	TALKWITHSYLVESTER_0006	А что вы будете у нас преподавать?	And what will you teach here?								
+29	CP	SR_USUAL	TALKWITHSYLVESTER_0007	Я выполняю роль куратора твоей группы, я не буду вести никаких предметов у твоей группы в этом году. У тебя есть еще вопросы?	I am acting as the curator of your group, I will not teach any subjects at your group this year. Do you have any more questions?								
+30	CP	KN_USUAL	TALKWITHSYLVESTER_0007	Нет, профессор. Я пожалуй пойду.	No, Professor. I think I'll go.								
+31	CP	KN_USUAL	TALKWITHANAT_0001	Здравствуйте! Я Кервин, первокурсник, буду рад у вас учиться. Профессор Сильвестр сказал что вы наш преподаватель.	Hello! I'm Kerwin, a freshman, and I'll be glad to learn from you. Professor Sylvester said that you are our professor too.								
+32	CP	USUAL	TALKWITHANAT_0001	Здравствуй, Кервин. Мое имя Анат Симон, но у нас в колледже все зовут друг друга по имени, так что можешь звать меня просто Анат.	Hello, Kerwin. My name is Anat Simon, but everyone in college calls each other by their first name, so you can just call me a Anat.								
+33	CP	USUAL	TALKWITHANAT_0002	Я буду вести у вашей группы несколько предметов в этом году.	I will teach your group some subjects this year.								
+34	CP	KN_USUAL	TALKWITHANAT_0002	Очень рад знакомству!	I am very glad to meet you!								
+35	CP	USUAL	TALKWITHANAT_0003	Ступай, Кервин, осмотрись, у нас прекрасный кампус.	Go on, Kerwin, take a look around, we have a beautiful campus.								
+36	CP	KN_USUAL	TALKWITHANAT_0003	Всего доброго, профессор!	Have a nice day, Professor!								
+37	CP	USUAL	TALKWITHANAT_0004	Слушаю.	I'm listening.								
+38	CP	KN_USUAL	TALKWITHANAT_0004	Вы выглядите расстроенным, что-то случилось?	Do you look upset, has something happened?								
+39	CP	USUAL	TALKWITHANAT_0005	Нет, Кервин, все в порядке. Не беспокойся за меня.	No, Kerwin, it's all right. Don't worry about me.								
+40	CP	KN_USUAL	TALKWITHANAT_0005	Ладно. Хорошего дня!	Okay. Have a nice day!								
+41	CP	USUAL	TALKWITHANAT_0006	И тебе.	And you.								
+42	CP	USUAL	TALKWITHANAT_0007	Знаешь, Кервин, я бы не стал иметь дела с Сильвестром, будь с ним осторожен.	You know, Kerwin, I wouldn't have anything to do with Sylvester. Be careful with him.								
+43	CP	KN_USUAL	TALKWITHANAT_0007	Почему? Он был замечен в чем-то незаконном?	Why? Was he seen doing something illegal?								
+44	CP	USUAL	TALKWITHANAT_0008	Нет, но уверяю тебя он способен на мелкие пакости. 	No, but I assure you he is capable of minor dirty tricks.								
+45	CP	USUAL	TALKWITHANAT_0009	Пришел в колледж всего пять лет назад, а уже стал учителем года. Я за 15 лет работы здесь так и не удостоился этой награды. Думаю, он умело проворачивает какие-то темные делишки и махинации.	He joined the college only five years ago, and  has already become the teacher of the year. In 15 years of working here, I have not been awarded this award. I think he's skilfully pulling off some kind of shady dealings and machinations.								
+46	CP	KN_USUAL	TALKWITHANAT_0009	Спасибо, профессор Анат, буду держать ухо востро.	Thank you, Professor Anat, I will keep my eyes open.								
+47	CP	USUAL	TALKWITHDAMONIKA_0001	Библиотека закрыта, сколько раз мне это повторить за сегодня!	The library is closed, how many times do I have to repeat this today!								
+48	CP	KN_USUAL	TALKWITHDAMONIKA_0001	Хорошо-хорошо, я просто осматриваюсь.	Okay, okay, I'm just looking around.								
+49	CP	USUAL	TALKWITHSEAN_0001	Ну, что готов покорять высоты гуманитарных наук, Кен? Речь ректора была такой скучной, что я чуть не уснул.	Well, are you ready to conquer the heights of the humanities, Ken? The rector's speech was so boring that I almost fell asleep.								
+50	CP	KN_USUAL	TALKWITHSEAN_0001	Да, а я вот задремал, представляешь.	Yes, but I dozed off, can you imagine.								
+51	CP	USUAL	TALKWITHSEAN_0002	Видел! Было жутко наблюдать как кто-то спит стоя. Никогда такого не видел. У тебя даже со рта слюна капала.	I saw it! It was creepy to watch someone sleeping standing up. I've never seen anything like that. You even had saliva dripping from your mouth.								
+52	CP	KN_USUAL	TALKWITHSEAN_0002	О, черт, надеюсь не все заметили.	Oh, shit, I hope not everyone noticed.								
+53	CP	USUAL	TALKWITHSEAN_0003	Будь уверен, когда толпа начала рассасываться, тебя стало отлично видно. Дурная слава тоже слава, не переживай!	Be sure, when the crowd began to disperse, you became perfectly visible. Notoriety is also fame, don't worry!								
+54	CP	KN_USUAL	TALKWITHSEAN_0003	Ладно, мне надо отнести документы в деканат, увидимся!	Okay, I have to take the documents to the dean's office, see you later!								
+55	CP	USUAL	TALKWITHSEAN_0004	Кен, я тут познакомился с ребятами, мы хотим пойти в заброшенную часть парка после отбоя. Хочешь с нами?	Ken, I've met some guys here, we want to go to an abandoned part of the park after lights out. Do you want to come with us?								
+56	CP	KN_USUAL	TALKWITHSEAN_0004	Пока не знаю, Шон. Давай поговорим об этом вечером.	I don't know yet, Sean. Let's talk about it tonight.								
+57	CP	USUAL	TALKWITHSEAN_0005	Ходят слухи, что на территории кампуса есть парень, который приторговывает всяким.	There are rumors that there is a guy on campus who sells some stuff.								
+58	CP	KN_USUAL	TALKWITHSEAN_0005	Хм, интересно что он продает...	Hmm, I wonder what he's selling...								
+59	CP	USUAL	TALKWITHVALENTIA_0001	Мне так нравится наблюдать за водной гладью. Только это меня успокаивает. Ты должно быть новый студент. Меня зовут Валентия, я преподаватель.	I love watching the water surface so much. That's the only thing that calms me down. You must be a new student. My name is Valentina, I am a professor.								
+60	CP	KN_USUAL	TALKWITHVALENTIA_0001	Здравствуйте, я Кервин, да, я только поступил. Жду не дождусь начала занятий. Мне так нравится наш кампус, тут есть на что посмотреть!	Hello, I'm Kerwin, yes, I'm a freshman. I can't wait for classes to start. I love our campus so much, there's a lot to see here!								
+61	CP	USUAL	TALKWITHVALENTIA_0002	Лучше бы тебе не видеть всего, на что здесь можно наткнуться. Будь осторожен. Порой вещи - совсем не то, чем кажутся.	You'd better not see everything you can stumble upon here. Be careful. Sometimes things are not what they seem.								
+62	CP	KN_USUAL	TALKWITHVALENTIA_0002	А чего именно мне стоит ожидать и чего опасаться?	And what exactly should I expect and what should I fear?								
+63	CP	USUAL	TALKWITHVALENTIA_0003	Ступай. Завтра будет первый день занятий, тебе стоит хорошо отдохнуть. Помни одно: не выходи ночью на улицу.	Go ahead. Tomorrow will be the first day of classes, you should have a good rest. Remember one thing: don't go outside at night.								
+64	CP	KN_USUAL	TALKWITHVALENTIA_0004	Часто вы проводите здесь время?	Do you often spend time here?								
+65	CP	USUAL	TALKWITHVALENTIA_0004	Да, мне нравится вода, в ней есть спокойствие и умиротворение. Которых порой так не хватает любому преподавателю.	Yes, I like the water, it has peace and tranquility. Which are sometimes so lacking for any teacher.								
+66	CP	KN_USUAL	TALKWITHVALENTIA_0005	Понимаю. Хорошего вечера профессор.	I understand. Have a nice evening, Professor.								
+67	CP	USUAL	TALKWITHVALENTIA_0005	И тебе удачи, юный Кервин.	And good luck to you, young Kerwin.								
+68	CP	USUAL	TALKWITHTAMIR_0001	Не отвлекай меня, сопляк. У меня нет на тебя времени.	Don't distract me, brat. I don't have time for you.								
+69	CP	KN_USUAL	TALKWITHTAMIR_0002	Извините, что отвлек. Пожалуй пойду.	Sorry to interrupt. I think I'll go.								
+70	CP	USUAL	TALKWITHSECRETARY_0001	У тебя есть еще какие-то вопросы?	Do you have any other questions?								
+71	CP	KN_USUAL	TALKWITHSECRETARY_0002	Нет, вопросов нет, всего доброго!	No, no questions, have a nice day!								
+72	CP	USUAL	TALKWITHKAYA_0001	Спасибо, что солгласился помочь. Это много для меня значит.	Thank you for agreeing to help. It means a lot to me.								
+73	CP	KN_USUAL	TALKWITHKAYA_0002	Не за что, подожди немного, скоро вернусь с книгой.	You're welcome, wait a bit, I'll be back soon with a book.								

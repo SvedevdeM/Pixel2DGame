@@ -1,0 +1,1753 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+guid: 4060321b8233b3b4a842b1d5d30240af
+========
+guid: 296f984920d886e4fa0180490ce75805
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+========
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      name: Atlas1_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 469
+        width: 219
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7685526007d3df34cb88682ba0adbcd2
+      internalID: -1510757283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 454
+        width: 14
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c26a4e8685561241a4f47cf8e939d57
+      internalID: 708747920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_2
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 621
+        width: 87
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bde4101dbe41e14eabd65bb486e043e
+      internalID: -1118243035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 545
+        width: 87
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada2c4bf197c79d488bcd24fd59b946e
+      internalID: -1589863106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_4
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 463
+        width: 87
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0044d30d5dd8df3428557aea967991c7
+      internalID: 1474408030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_5
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 614
+        width: 70
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42a8e96b6e1fac41a3b07faf84953fc
+      internalID: -2105292819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_6
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 545
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7c0975d54debd46a0174bd818a2bb6
+      internalID: 207220734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_7
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 469
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82810265e25c8314995fda35135e3871
+      internalID: -48469574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_8
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 385
+        width: 73
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd1e04bfe7833745a91222a8d383fa9
+      internalID: -604293984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_9
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 330
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2dca6aad6ab33499b5a66877b84513
+      internalID: -1337193390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_10
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 286
+        width: 49
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c500dac28a495dd4d8a1e9b35b9178a9
+      internalID: 619602256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_11
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 239
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b2b52d98aa95e4a8c5c14d42fa26c1
+      internalID: -43432567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_12
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 226
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6363b5a4933cd4cbe4bb72d8d86c0e
+      internalID: 1820601070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_13
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 179
+        width: 51
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc328619f0b8a344a8b456ebe5c7243
+      internalID: -1558255324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_14
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 122
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad68c65dc0271e4997d85bec3f4dc66
+      internalID: -1981738531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_15
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 122
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bdf7ba5e4f8bf4f9b9e01d1e46ca35
+      internalID: 346213382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_16
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 153
+        width: 13
+        height: 7
+========
+      name: UI_Diary_Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 482
+        width: 128
+        height: 27
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      spriteID: 3aa5e72650f5ebb4d88208f55ba42725
+      internalID: -835602082
+========
+      spriteID: 5d9cc4c6953385a44a7710a1cad3206d
+      internalID: 1660187376
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      name: Atlas1_17
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 120
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fd67c347ddf874c94fec09aaf55b8f
+      internalID: 1546859519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 187
+        width: 25
+        height: 16
+========
+      name: UI_Diary_Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 423
+        width: 128
+        height: 86
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      spriteID: 9bd9551c956fc014a90d5520706dd513
+      internalID: 410367001
+========
+      spriteID: 6190f49267aa187488cadb502b4951db
+      internalID: -555822222
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      name: Atlas1_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 171
+        width: 84
+        height: 24
+========
+      name: UI_Diary_Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 443
+        width: 128
+        height: 64
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      spriteID: cd2c52aac5d6c54469a907569b9c7b1b
+      internalID: -172066217
+========
+      spriteID: a837a817e3ad67649a19def1fb1703e0
+      internalID: 732058974
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      name: Atlas1_20
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 236
+        width: 71
+        height: 29
+========
+      name: UI_Diary_Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 480
+        width: 32
+        height: 32
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      spriteID: 58eaf2170733b4a4f88692fed73bef46
+      internalID: 2069792183
+========
+      spriteID: 9a2242f9e14492e4b8e0a2434435009e
+      internalID: 1640614128
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      name: Atlas1_21
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 211
+        width: 36
+        height: 45
+========
+      name: UI_Diary_Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 480
+        width: 32
+        height: 32
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      spriteID: 66af26b7bfc486b4f9621a6ba2e930a8
+      internalID: -632549028
+========
+      spriteID: 34d5b76581451ab46b1724d3663b91a7
+      internalID: -1422621465
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      name: Atlas1_22
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 234
+        width: 22
+        height: 19
+========
+      name: UI_Diary_Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca26e60f5598cd14885232334bd1b920
+      internalID: -180503539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b3bd17d651504419ac08606723b90c
+      internalID: 1157554727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fd01e8a4c54ea44ba88de24b71f07f
+      internalID: 1399623737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af14b073cf82f547901f0a392f5f8cd
+      internalID: -224768903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb01c07bdcebbed4cabe02c033360f76
+      internalID: 1367039473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7331b5210603b146af3b3bcd807c88c
+      internalID: -1171652466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_11
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af357a1603694e41b3f88e80610ca2b
+      internalID: -1279497300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bde7c736c629a4c830853804f34a8b
+      internalID: 967512423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af7f40d83594f14191d2008d8aeb200
+      internalID: -1645370366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_14
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 354
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c9be240bd6e2b4f83cc07e5b1216b9
+      internalID: 535090454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 512
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abcdf6c1527e5d46ad64a0b185adc79
+      internalID: -1087267029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0603f312f90c84899c0ee093a45c36
+      internalID: -1917172298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_17
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 319
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3faa87c04f66d104e81ce9cf1f03dac3
+      internalID: -549573052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 325
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b497f3122d3874caf877b91f46e8ee
+      internalID: -754294617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_19
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b7c56e01ef9e8439ec1b254d8d18e9
+      internalID: -1866425028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_20
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef6946c798d1ea4da1d66854fad0018
+      internalID: -730483756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_21
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 290
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545f076d726d3934baf76d1bb8a32b90
+      internalID: -1182177142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_22
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fd1e799ae2b75418806b457ccb6bec
+      internalID: -698823153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_23
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2721a3e87de46242881e90879bf2692
+      internalID: -112364729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_24
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 226
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44792e0226d04374581c30708016d13c
+      internalID: 49626967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_25
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db740f924fb967d42b802c8d792a357f
+      internalID: 402787304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_26
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487e60e904e028540a7da4f3c4e8ae15
+      internalID: -1895560776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_27
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 162
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f110431385560a49bf80e1b4110b8aa
+      internalID: -544091070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a56c897de6619c439f266424ebff298
+      internalID: 2071575763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_29
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bc78884c6d07842a626d4ab60341a2
+      internalID: -1926546128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_30
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86486c1816b724346a24f5e8045ce664
+      internalID: -588611753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Diary_Atlas_31
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 0
+        width: 12
+        height: 128
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      spriteID: 87c042ac0b6bfad4c9b88ef48767cfd7
+      internalID: 2089989244
+========
+      spriteID: 574a6ed0c84b93c4c82c2245b5594deb
+      internalID: -380222454
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      name: Atlas1_23
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 201
+        width: 64
+        height: 64
+========
+      name: UI_Diary_Atlas_32
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 96
+        width: 32
+        height: 32
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      spriteID: 25406154483595849982f9462a01fe54
+      internalID: -1545442527
+========
+      spriteID: 6cff02d02248d264195756b1f9eb4dc8
+      internalID: 737682902
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      name: Atlas1_24
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 109
+        width: 64
+        height: 64
+========
+      name: UI_Diary_Atlas_33
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 96
+        width: 32
+        height: 32
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      spriteID: 07922bb9748cb2546bc6cf3ac69299cf
+      internalID: 1615955829
+========
+      spriteID: aaca09e945a7d53458691c0238e113d8
+      internalID: 1391458236
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      name: Atlas1_25
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 20
+        width: 56
+        height: 72
+========
+      name: UI_Diary_Atlas_34
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 64
+        width: 32
+        height: 32
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      spriteID: 81e5fb71080a80a41b79724f7983b6a2
+      internalID: -630222654
+========
+      spriteID: 8987aa2fc1e96a844bac5fc892412874
+      internalID: 1068916809
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      name: Atlas1_26
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 20
+        width: 56
+        height: 72
+========
+      name: UI_Diary_Atlas_35
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 64
+        width: 32
+        height: 32
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      spriteID: dc10fadcc3465ef498324b11008fd4a2
+      internalID: -1463218696
+========
+      spriteID: 4dcf69ccb26f43d40bc949c6be6b1f6a
+      internalID: 832011164
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      name: Atlas1_27
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 20
+        width: 56
+        height: 72
+========
+      name: UI_Diary_Atlas_36
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 32
+        width: 32
+        height: 32
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      spriteID: 4e33aa7746e22be418015c0679a1fc2a
+      internalID: 169604842
+========
+      spriteID: d25e73877ffa4fa41b22ce27e563d640
+      internalID: 556335989
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      name: Atlas1_28
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 19
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+========
+      name: UI_Diary_Atlas_37
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      spriteID: 685341ca5ea83f249a2b198422aab072
+      internalID: -1737020052
+========
+      spriteID: e4e9cc62c1b68754cae4b9ed931a1867
+      internalID: 593725647
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      name: Atlas1_29
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 20
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+========
+      name: UI_Diary_Atlas_38
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      spriteID: bfd3de994f72eb34b938a2d855963233
+      internalID: -1897756911
+========
+      spriteID: 568125d5f4eb08f448c626c023314f0f
+      internalID: -1969289640
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      name: Atlas1_30
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 20
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+========
+      name: UI_Diary_Atlas_39
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      spriteID: 5b5a3b8fa7142404fa4368d8398dd20c
+      internalID: -1501898125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_31
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 118
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ac12e8e2c7b38469d4c4b49063b289
+      internalID: -625466249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_32
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 112
+        width: 71
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3136436ea1228b8459b3f348182d0795
+      internalID: -1799610515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_33
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 280
+        width: 100
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0264123c46ad54eb424f670422910b
+      internalID: 1169077835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_34
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 315
+        width: 36
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddcc13a36dc0704aa599fa0b740d3ec
+      internalID: 2013986484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_35
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 303
+        width: 183
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d41db0778a2ede4196c21a813352196
+      internalID: -1692505666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas1_36
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 605
+        width: 14
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe7a43b86d198a47a12d1e5ac050d03
+      internalID: 2106858013
+========
+      spriteID: b93fa658f907dd445be9dcbb37db3c75
+      internalID: 560179714
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+<<<<<<<< HEAD:vices/Assets/Resources/Sprites/Atlas1.png.meta
+      Atlas1_0: -1510757283
+      Atlas1_1: 708747920
+      Atlas1_10: 619602256
+      Atlas1_11: -43432567
+      Atlas1_12: 1820601070
+      Atlas1_13: -1558255324
+      Atlas1_14: -1981738531
+      Atlas1_15: 346213382
+      Atlas1_16: -835602082
+      Atlas1_17: 1546859519
+      Atlas1_18: 410367001
+      Atlas1_19: -172066217
+      Atlas1_2: -1118243035
+      Atlas1_20: 2069792183
+      Atlas1_21: -632549028
+      Atlas1_22: 2089989244
+      Atlas1_23: -1545442527
+      Atlas1_24: 1615955829
+      Atlas1_25: -630222654
+      Atlas1_26: -1463218696
+      Atlas1_27: 169604842
+      Atlas1_28: -1737020052
+      Atlas1_29: -1897756911
+      Atlas1_3: -1589863106
+      Atlas1_30: -1501898125
+      Atlas1_31: -625466249
+      Atlas1_32: -1799610515
+      Atlas1_33: 1169077835
+      Atlas1_34: 2013986484
+      Atlas1_35: -1692505666
+      Atlas1_36: 2106858013
+      Atlas1_4: 1474408030
+      Atlas1_5: -2105292819
+      Atlas1_6: 207220734
+      Atlas1_7: -48469574
+      Atlas1_8: -604293984
+      Atlas1_9: -1337193390
+========
+      UI_Diary_Atlas_0: 1660187376
+      UI_Diary_Atlas_1: -555822222
+      UI_Diary_Atlas_10: -1171652466
+      UI_Diary_Atlas_11: -1279497300
+      UI_Diary_Atlas_12: 967512423
+      UI_Diary_Atlas_13: -1645370366
+      UI_Diary_Atlas_14: 535090454
+      UI_Diary_Atlas_15: -1087267029
+      UI_Diary_Atlas_16: -1917172298
+      UI_Diary_Atlas_17: -549573052
+      UI_Diary_Atlas_18: -754294617
+      UI_Diary_Atlas_19: -1866425028
+      UI_Diary_Atlas_2: 732058974
+      UI_Diary_Atlas_20: -730483756
+      UI_Diary_Atlas_21: -1182177142
+      UI_Diary_Atlas_22: -698823153
+      UI_Diary_Atlas_23: -112364729
+      UI_Diary_Atlas_24: 49626967
+      UI_Diary_Atlas_25: 402787304
+      UI_Diary_Atlas_26: -1895560776
+      UI_Diary_Atlas_27: -544091070
+      UI_Diary_Atlas_28: 2071575763
+      UI_Diary_Atlas_29: -1926546128
+      UI_Diary_Atlas_3: 1640614128
+      UI_Diary_Atlas_30: -588611753
+      UI_Diary_Atlas_31: -380222454
+      UI_Diary_Atlas_32: 737682902
+      UI_Diary_Atlas_33: 1391458236
+      UI_Diary_Atlas_34: 1068916809
+      UI_Diary_Atlas_35: 832011164
+      UI_Diary_Atlas_36: 556335989
+      UI_Diary_Atlas_37: 593725647
+      UI_Diary_Atlas_38: -1969289640
+      UI_Diary_Atlas_39: 560179714
+      UI_Diary_Atlas_4: -1422621465
+      UI_Diary_Atlas_5: -180503539
+      UI_Diary_Atlas_6: 1157554727
+      UI_Diary_Atlas_7: 1399623737
+      UI_Diary_Atlas_8: -224768903
+      UI_Diary_Atlas_9: 1367039473
+>>>>>>>> fc206a6 (Add:):vices/Assets/Resources/Sprites/UI/UI_Diary_Atlas.png.meta
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

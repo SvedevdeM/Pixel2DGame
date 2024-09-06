@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2671bd653334d748b8e648c45cbec2c, type: 3}
+  m_Name: KayaWalkSide
+  m_EditorClassIdentifier: 
+  Name: 
+  cels:
+  - sprite: {fileID: 2005168129, guid: 890c178c091946945b4f729755777bcf, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1183552810, guid: 890c178c091946945b4f729755777bcf, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -522819699, guid: 890c178c091946945b4f729755777bcf, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1890289902, guid: 890c178c091946945b4f729755777bcf, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -609422105, guid: 890c178c091946945b4f729755777bcf, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1048335348, guid: 890c178c091946945b4f729755777bcf, type: 3}
+    drivers:
+      values: 
+      keys: []
+  controlDriverNew:
+    name: 
+    controll: {fileID: 0}
+    autoIncrement: 1
+    percentageBased: 0
+    guid: 922e199e-6448-4d60-9601-aa7d5196402b
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

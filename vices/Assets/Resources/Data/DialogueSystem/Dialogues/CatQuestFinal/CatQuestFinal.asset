@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b14a46de6ce238489b3e9309c4d902d, type: 3}
+  m_Name: CatQuestFinal
+  m_EditorClassIdentifier: 
+  FileName: CatQuestFinal
+  Groups:
+    list: []
+  UngroupedDialogues:
+  - {fileID: 11400000, guid: 31e561ece2b1d5045b2203ad444bb57d, type: 2}
+  - {fileID: 11400000, guid: 2c2d99f7a97c4ca42ba5614b3a821f8f, type: 2}
+  - {fileID: 11400000, guid: 991c861d7417bef4e923ef4495eafbe5, type: 2}
+  - {fileID: 11400000, guid: 7e5516bf5aafa4c4a8da4084999bc640, type: 2}
+  - {fileID: 11400000, guid: e35e351e1365f364f93a080ce2da5a46, type: 2}
+  - {fileID: 11400000, guid: ba233c2eff8fb264b81d360b61d24e88, type: 2}
+  - {fileID: 11400000, guid: 51fc0ef16e2b814418f69b99f160df28, type: 2}
+  - {fileID: 11400000, guid: aa141eac6f385d8419f1fc44fc80d2b3, type: 2}
+  - {fileID: 11400000, guid: 019ed7771bfec464bb8d0a190c1da816, type: 2}
+  - {fileID: 11400000, guid: d1b643c2a3171e744bd8e2d7d2bc9966, type: 2}
+  - {fileID: 11400000, guid: 4fe6b263279e1b846899c666eb72e60f, type: 2}
+  - {fileID: 11400000, guid: a2d3073f9bc083b4ca342c31f3bacf1d, type: 2}
+  - {fileID: 11400000, guid: 46c6318de5efa9d4bbe179e8935c6bea, type: 2}

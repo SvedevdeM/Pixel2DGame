@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710377662ee5c24c99a823c421eb0b2, type: 3}
+  m_Name: UsualTalkWithSylvester2Graph
+  m_EditorClassIdentifier: 
+  FileName: 
+  Groups: []
+  Nodes:
+  - ID: d88a9ead-ede6-48d9-a129-60f38b3547f7
+    Name: CP.SR_USUAL.TALKWITHSYLVESTER_0003
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: d0e407138af428244be6d2cb518956cd, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 41ebbcaf-9d6a-4da6-9ff8-dc3497627b3c
+    GroupID: 
+    Type: 1
+    Position: {x: 273, y: 314}
+  - ID: 24b055a6-2b15-4ff7-abc0-d67600190dd2
+    Name: CP.KN_USUAL.TALKWITHANAT_0004
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 1
+    Position: {x: 1042, y: 106}
+  - ID: 41ebbcaf-9d6a-4da6-9ff8-dc3497627b3c
+    Name: CP.KN_USUAL.TALKWITHSYLVESTER_0003
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: c91eaf39-2473-49c7-9ed2-119c8da615a0
+    GroupID: 
+    Type: 1
+    Position: {x: 541, y: 106}
+  - ID: c91eaf39-2473-49c7-9ed2-119c8da615a0
+    Name: CP.SR_USUAL.TALKWITHSYLVESTER_0004
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: d0e407138af428244be6d2cb518956cd, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 24b055a6-2b15-4ff7-abc0-d67600190dd2
+    GroupID: 
+    Type: 1
+    Position: {x: 789, y: 315}
+  OldGroupNames: []
+  OldUngroupedNodeNames:
+  - CP.SR_USUAL.TALKWITHSYLVESTER_0003
+  - CP.KN_USUAL.TALKWITHANAT_0004
+  - CP.KN_USUAL.TALKWITHSYLVESTER_0003
+  - CP.SR_USUAL.TALKWITHSYLVESTER_0004
+  OldGroupedNodeNames:
+    list: []

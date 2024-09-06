@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55172f5de23cce1498cc1c7622c30286, type: 3}
+  m_Name: John_0_0
+  m_EditorClassIdentifier: 
+  Name: John_0_0
+  Text: "\u0414\u0430, \u0432\u0441\u0451 \u0432\u0435\u0440\u043D\u043E. \u0421\u043C\u0430\u0437\u043B\u0438\u0432\u044B\u0439
+    \u0442\u0430\u043A\u043E\u0439."
+  Actor: {fileID: 11400000, guid: d0e407138af428244be6d2cb518956cd, type: 2}
+  Event: {fileID: 0}
+  Choices:
+  - Text: Next Node
+    NextDialogue: {fileID: 11400000, guid: f2c568a392b1c5842a8f39484e40338f, type: 2}
+  Type: 1
+  IsStartingDialogue: 0

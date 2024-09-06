@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78fdd7c50a0553448335fa47abd4178, type: 3}
+  m_Name: DerogRunSwitch
+  m_EditorClassIdentifier: 
+  Name: 
+  nodes:
+  - {fileID: 11400000, guid: 923c2d1a106e33d4aa7aebc0df21cc6a, type: 2}
+  - {fileID: 11400000, guid: 5aee49cd342fc05478cb8939813cad9d, type: 2}
+  - {fileID: 11400000, guid: 5889e643083147f4088eba582c22f157, type: 2}
+  controlDriver:
+    name: 
+    controll: {fileID: 11400000, guid: a603aa6243035f24ca533ce1d71518c9, type: 2}
+    autoIncrement: 0
+    percentageBased: 0
+    guid: a116fc79-f431-4820-8c24-9b37aaedefff
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

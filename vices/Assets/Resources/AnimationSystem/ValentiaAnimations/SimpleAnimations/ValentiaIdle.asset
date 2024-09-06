@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2671bd653334d748b8e648c45cbec2c, type: 3}
+  m_Name: ValentiaIdle
+  m_EditorClassIdentifier: 
+  Name: 
+  cels:
+  - sprite: {fileID: -152497956, guid: ef6222b14f3f6b443a1443ca5fc89b3d, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -221083507, guid: ef6222b14f3f6b443a1443ca5fc89b3d, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 130580274, guid: ef6222b14f3f6b443a1443ca5fc89b3d, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -1264322189, guid: ef6222b14f3f6b443a1443ca5fc89b3d, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -32674517, guid: ef6222b14f3f6b443a1443ca5fc89b3d, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1043746493, guid: ef6222b14f3f6b443a1443ca5fc89b3d, type: 3}
+    drivers:
+      values: 
+      keys: []
+  controlDriverNew:
+    name: 
+    controll: {fileID: 0}
+    autoIncrement: 1
+    percentageBased: 0
+    guid: 3b0fb3cb-b1af-4923-b503-b131e2d9fe27
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

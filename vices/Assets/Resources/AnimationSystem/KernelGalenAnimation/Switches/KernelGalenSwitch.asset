@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78fdd7c50a0553448335fa47abd4178, type: 3}
+  m_Name: KernelGalenSwitch
+  m_EditorClassIdentifier: 
+  Name: 
+  nodes:
+  - {fileID: 11400000, guid: 3d8f824434ba53c4fa81e00a3fe7a84f, type: 2}
+  - {fileID: 11400000, guid: 50b57d0903e89774a8fe7a4e2c26b048, type: 2}
+  - {fileID: 11400000, guid: 6b08072c838f42a42b9f9fad59196dc0, type: 2}
+  controlDriver:
+    name: 
+    controll: {fileID: 11400000, guid: b9867dcff7fa34549b324922dac319f8, type: 2}
+    autoIncrement: 0
+    percentageBased: 0
+    guid: 8d87b454-1770-4d03-9bfb-3ff21c2ee180
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

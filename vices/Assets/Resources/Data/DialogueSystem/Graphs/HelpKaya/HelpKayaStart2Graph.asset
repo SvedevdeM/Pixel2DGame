@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710377662ee5c24c99a823c421eb0b2, type: 3}
+  m_Name: HelpKayaStart2Graph
+  m_EditorClassIdentifier: 
+  FileName: HelpKayaStart2
+  Groups: []
+  Nodes:
+  - ID: 1c29e8b6-47d5-45d8-8105-3d825f316a18
+    Name: CP.STORY.HELPKAYA_START_0004
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 6ffbaab6b84cb6f4d87561c60d9590c4, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 55a8fab8-40d4-4850-b808-0bf77075807b
+    GroupID: 
+    Type: 1
+    Position: {x: 235, y: 303}
+  - ID: 55a8fab8-40d4-4850-b808-0bf77075807b
+    Name: CP.KN_STORY.HELPKAYA_START_0004
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: b5c6e6a3-0626-445c-bcb0-48a83abb73fd
+    GroupID: 
+    Type: 1
+    Position: {x: 515, y: 131}
+  - ID: b5c6e6a3-0626-445c-bcb0-48a83abb73fd
+    Name: CP.STORY.HELPKAYA_START_0005
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 6ffbaab6b84cb6f4d87561c60d9590c4, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: c06727f5-38b4-4be6-b040-6bf55bfc42aa
+    GroupID: 
+    Type: 1
+    Position: {x: 815, y: 303}
+  - ID: c06727f5-38b4-4be6-b040-6bf55bfc42aa
+    Name: CP.KN_STORY.HELPKAYA_START_0005
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 86a670f1-21da-4539-9a37-3409b2498c99
+    GroupID: 
+    Type: 1
+    Position: {x: 1107, y: 145}
+  - ID: 86a670f1-21da-4539-9a37-3409b2498c99
+    Name: CP.STORY.HELPKAYA_START_0006
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 6ffbaab6b84cb6f4d87561c60d9590c4, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 05dc0051-546c-4663-83ec-3385434f43c4
+    GroupID: 
+    Type: 1
+    Position: {x: 1412, y: 302}
+  - ID: 05dc0051-546c-4663-83ec-3385434f43c4
+    Name: CP.KN_STORY.HELPKAYA_START_0006
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 9a209717-0c90-4148-a1d6-a2356d11b1c7
+    GroupID: 
+    Type: 1
+    Position: {x: 1691, y: 139}
+  - ID: 9a209717-0c90-4148-a1d6-a2356d11b1c7
+    Name: CP.STORY.HELPKAYA_START_0007
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 6ffbaab6b84cb6f4d87561c60d9590c4, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 439e0497-533b-4ab4-91a8-5ba733471e4c
+    GroupID: 
+    Type: 1
+    Position: {x: 1986, y: 302}
+  - ID: 439e0497-533b-4ab4-91a8-5ba733471e4c
+    Name: CP.KN_STORY.HELPKAYA_START_0007
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 1
+    Position: {x: 2256, y: 142}
+  OldGroupNames: []
+  OldUngroupedNodeNames:
+  - CP.STORY.HELPKAYA_START_0004
+  - CP.KN_STORY.HELPKAYA_START_0004
+  - CP.STORY.HELPKAYA_START_0005
+  - CP.KN_STORY.HELPKAYA_START_0005
+  - CP.STORY.HELPKAYA_START_0006
+  - CP.KN_STORY.HELPKAYA_START_0006
+  - CP.STORY.HELPKAYA_START_0007
+  - CP.KN_STORY.HELPKAYA_START_0007
+  OldGroupedNodeNames:
+    list: []

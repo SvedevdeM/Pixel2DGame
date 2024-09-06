@@ -1,0 +1,69 @@
+ID	GROUP	SUB_GROUP	LOCALIZATION_KEY	RU	ENG	FRA	DEU	SPA	POL	POR	CHI	ITA	KOR
+1	CP	SPQUEST	CAT_START_0001	Привет! Не видел ли ты где нибудь на кампусе черного кота?	Hi! Have you seen a black cat anywhere on campus?								
+2	CP	KN_SPQUEST	CAT_START_0001	Нет, а что случилось?	No, but what happened?								
+3	CP	SPQUEST	CAT_START_0002	Мой кот Флеур опять потерялся, я так беспокоюсь за него. Каждый раз, когда он пропадает, я просто в ужасе!	My cat Fleur is lost again, I'm so worried about him. Every time he goes missing, I'm just terrified!								
+4	CP	SPQUEST	CAT_START_0003	И с каждым разом я все дольше не могу его найти!	And every time he lost I search him for longer and longer time!								
+5	CP	SPQUEST	CAT_START_0004	Можешь помочь мне найти его?	Can you help me find him?								
+6	CP	KN_SPQUEST	CAT_START_YES_0001	Да, с радостью! Как выглядит Флеур?	Yes, with pleasure! What does the Fleur look like?								
+7	CP	KN_SPQUEST	CAT_START_NO_0001	Нет. Думаю, раз ты принес кота в общежитие, зная что это запрещено, то это только твоя ответственность.	No. I think since you brought the cat to the dorm, knowing that it is forbidden, then it is only your responsibility.								
+8	CP	SPQUEST	CAT_NO_0001	Все отказываются! Придется искать его до ночи...	Everyone refuses! We'll have to look for him until nightfall...								
+9	CP	SPQUEST	CAT_NO_0002	Не трогай меня, я занят, иди куда шел!	Don't touch me, I'm busy, go where you were going!								
+10	CP	CH_SPQUEST	CAT_START_YES_0001	Согласиться помочь.	Agree to help.								
+11	CP	CH_SPQUEST	CAT_START_NO_0001	Отказать.	Deny.								
+12	CP	SPQUEST	CAT_YES_0001	Флеур - полностью черного цвета, а еще на нем красный ошейник с колокольчиком. Так что, если услышишь звон, обязательно проверь.	The fleur is completely black in color, and he also wears a red collar with a bell. So if you hear a ringing, be sure to check it out.								
+13	CP	KN_SPQUEST	CAT_YES_0001	Где ты уже искал?	Where have you been looking?								
+14	CP	SPQUEST	CAT_YES_0002	Я обыскал кампус, и здание колледжа. Остается проверить общежития и большой парк.	I searched the campus and the college building. It remains to check the dormitories and the large park.								
+15	CP	KN_SPQUEST	CAT_YES_0002	Так, я проверю большой парк, а ты проверь общежития, как закончим встречаемся здесь!	So, I'll check the big park, and you check the dormitories, as soon as we're done, we'll meet here!								
+16	CP	SPQUEST	CAT_YES_0003	Надеюсь, Флеур в порядке...	I hope Fleur is okay...								
+17	CP	SPQUEST	CAT_PARK_0001	*звон колокольчика*	*bell ring*								
+18	CP	SPQUEST	CAT_PARK_0002	*мяу*	*meow*								
+19	CP	KN_SPQUEST	CAT_PARK_0001	Флеур, а вот и ты! Кис-кис-кис, иди сюда!	Fleur, here you are! Kitty-kitty-kitty, come here!								
+20	CP	KN_SPQUEST	CAT_PARK_0002	Да чтоб тебя, придется его ловить.	Damn, I'll have to catch him.								
+21	CP	KN_SPQUEST	CAT_PARK_0003	Флеур, иди ко мне! Кис-Кис!	Fleur, come to me! Kitty-Kitty!								
+22	CP	KN_SPQUEST	CAT_PARK_0004	Чертов кот...	The damn cat...								
+23	CP	KN_SPQUEST	CAT_PARK_0005	Хороший котик, славный мальчик, иди ко мне, Флеур.	Good cat, nice boy, come to me, Fleur.								
+24	CP	KN_SPQUEST	CAT_PARK_0006	Ну, погоди, усатый, я до тебя доберусь...	Well, wait, you furry bastard, I'll get to you...								
+25	CP	KN_SPQUEST	CAT_PARK_0007	Флеур, дурья твоя голова, не убегай, я отнесу тебя к хозяину!	Fleur, you stupid head, don't run away, I'll take you to the owner!								
+26	CP	KN_SPQUEST	CAT_PARK_0008	Ну все, ты меня достал, задушу тебя как поймаю.	That's it, you've got me, I'll strangle you as soon as I catch you.								
+27	CP	KN_SPQUEST	CAT_PARK_0009	Блядский кот... Зачем я согласился помочь?	A fucking cat... Why did I agree to help?								
+28	CP	KN_SPQUEST	CAT_PARK_0010	А это вообще того стоит?	Is it even worth it?								
+29	CP	KN_SPQUEST	CAT_LOFAPARK_0001	Господи! Что за дела? Этот кот вылитый ты, Флеур!	God! What's the deal? This cat looks just like you, Fleur!								
+30	CP	SPQUEST	CAT_LOFAPARK_0001	*звон колокольчика*	*bell ring*								
+31	CP	KN_SPQUEST	CAT_LOFAPARK_0002	!!!	!!!								
+32	CP	KN_SPQUEST	CAT_LOFAPARK_0003	Да что не так с этим котом?! Это же явно твои кости и твой ошейник, Флеур!	What's wrong with this cat?! These are clearly your bones and your collar, Fleur!								
+33	CP	KN_SPQUEST	CAT_LOFAPARK_0004	Какого черта происходит в этом колледже?!	What the hell is going on in this college?!								
+34	CP	SPQUEST	CAT_LOFAPARK_0004	*звон колокольчика*	*bell ring*								
+35	CP	KN_SPQUEST	CAT_LOFAPARK_0005	Сколько же раз ты уже умирал?	How many times have you died already?								
+36	CP	KN_SPQUEST	CAT_ALTAR_0001	Что?! Что за чертовщина?! Почему вдруг наступила ночь?!	What?! What the hell is this?! Why is it suddenly night?!								
+37	CP	KN_SPQUEST	CAT_ALTAR_0002	Спрячусь-ка я в кусты, что-то мне это не нравится.	I'm going to hide in the bushes, I don't like it.								
+38	CP	KN_SPQUEST	CAT_ALTAR_0005	Кто ж тебя так не любит, мистер Флеур?	Who hates you so much, Mr. Fleur?								
+39	CP	KN_SPQUEST	CAT_ALTAR_0006	Это действительно тошнотворно! Какой больной ублюдок этим занимается?	It's really sickening! What kind of sick bastard did this?								
+40	CP	KN_SPQUEST	CAT_ALTAR_0007	Лучше будет наблюдать из кустов, не хочу чтоб меня заметили	It would be better to watch from the bushes, I don't want to be noticed								
+41	CP	KN_SPQUEST	CAT_ALTAR_0008	Может стоило все таки поступать в университет лиги плюща…	Maybe I should have gone to an Ivy League university...								
+42	CP	SPQUEST	CAT_ALTAR_0001	Ф'нглуи мглв'нафх Д'зрт М'нзбрранзн Вгах'нагл фхтан	Ph'nglui mglw'nafh D'zrt M'nzbrranzn wgah'nagl fhtagn⁠⁠								
+43	CP	SPQUEST	CAT_ALTAR_0002	ИМАС, ВЕГАЙМНКО, КВАХЕРС, ХЕВЕФАРАМ	IMAS, VEGAIMNKO, KVAHERS, HEVEFARAM								
+44	CP	KN_SPQUEST	CAT_PARK_0011	О, в этот раз ты не убежал, а ну-ка иди сюда!	Oh, you didn't run away this time, come here!								
+45	CP	KN_SPQUEST	CAT_EVIL_0001	Нервов ты мне потрепал сегодня изрядно, может хозяин тебя сегодня не дождется?	You've rubbed my nerves a lot today, maybe the owner won't wait for you today?								
+46	CP	CH_SPQUEST	CAT_EVIL_YES_0001	Задушить кота.	Strangle the cat.								
+47	CP	CH_SPQUEST	CAT_EVIL_NO_0001	Отнести кота хозяину.	Take the cat to the owner.								
+48	CP	KN_SPQUEST	CAT_EVIL_YES_0001	В гробу я видал такие приключения, от тебя сплошные проблемы. Я так рад, что могу просто тебя задушить.	I've had enough of this kind of adventure, you're nothing but trouble. I'm so glad I can just strangle you.								
+49	CP	KN_SPQUEST	CAT_EVIL_NO_0001	Чего это я? Пора уже отнести тебя хозяину.	What am I doing? It's time to take you to the owner.								
+50	CP	SPQUEST	CAT_FINAL_0001	Я обыскал общежития, там не было Флеура. А у тебя какие новости?	I searched the dormitories, there was no Fleur. And what news do you have?								
+51	CP	CH_SPQUEST	CAT_FINAL_NO_0001	Не отдавать ему кота.	Don't give him the cat.								
+52	CP	CH_SPQUEST	CAT_FINAL_YES_0001	Отдать ему кота.	Give him the cat.								
+53	CP	KN_SPQUEST	CAT_FINAL_NO_0001	Я не нашел твоего кота.	I didn't find your cat.								
+54	CP	KN_SPQUEST	CAT_FINAL_YES_0001	Я нашел его! Держи!	I found him! Here you go!								
+55	CP	SPQUEST	CAT_FINAL_NO_0002	О боже, где же он может быть...	Oh my God, where could he be?..								
+56	CP	KN_SPQUEST	CAT_FINAL_NO_0002	Не знаю, приятель, но в большом парке его точно нет.	I don't know, buddy, but he's definitely not in the big park.								
+57	CP	SPQUEST	CAT_FINAL_NO_0003	Спасибо, что постарался мне помочь... Пойду искать его сам. Попробую заглянуть в большой парк еще раз...	Thank you for trying to help me... I'm going to look for him myself. I'll try to look into the big park again...								
+58	CP	KN_SPQUEST	CAT_FINAL_NO_0003	Удачи, надеюсь ты его найдешь!	Good luck, I hope you find it!								
+59	CP	SPQUEST	CAT_FINAL_YES_0001	О, да! Это мой Флеур! Иди сюда, малыш! Ты меня сильно напугал...	Oh, yes! This is my Fleur! Come here, baby! You scared me a lot...								
+60	CP	SQUEST	CAT_FINAL_YES_0002	*мяу*	*bell ring*								
+61	CP	SPQUEST	CAT_FINAL_YES_0003	Спасибо тебе огромное, я - твой должник! Вот возьми этот комикс, надеюсь тебе понравится.	Thank you so much, I owe you one! Here, take this comic, I hope you like it.								
+62	CP	KN_SPQUEST	CAT_FINAL_YES_0003	С тобой приятно иметь дело! Удачи вам с Флеуром!	It's a pleasure doing business with you! Good luck with Fleur!								
+63	CP	SPQUEST	CAT_EVIL_FINAL_0001	Я обыскал общежития, там не было Флеура. А у тебя какие новости?	I searched the dormitories, there was no Fleur. And what news do you have?								
+64	CP	KN_SPQUEST	CAT_EVIL_FINAL_0002	Я нашел его! Держи!	I found him! Here you go!								
+65	CP	SPQUEST	CAT_EVIL_FINAL_0003	Но он же мертв! Что случилось!	But he's dead! What happened!								
+66	CP	KN_SPQUEST	CAT_EVIL_FINAL_0004	Я нашел его в большом парке, по ошейнику понял что это Флеур. Решил принести тебе, чтоб ты смог с ним попрощаться.	I found it in a large park, and I realized from the collar that it was a Fleur. I decided to bring it to you so that you can say goodbye to him.								
+67	CP	SPQUEST	CAT_EVIL_FINAL_0005	Спасибо...	Thank you...								
+68	CP	KN_SPQUEST	CAT_EVIL_FINAL_0006	Держись, друг. Я уверен, он был отличным котом,	Hold on, friend. I'm sure he was a great cat.,								

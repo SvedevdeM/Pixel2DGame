@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2671bd653334d748b8e648c45cbec2c, type: 3}
+  m_Name: TeacherSylvesterWalkSide
+  m_EditorClassIdentifier: 
+  Name: 
+  cels:
+  - sprite: {fileID: 297701712, guid: 633cfb21c4bdc4a4f81c8816a021c4d7, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1645028672, guid: 633cfb21c4bdc4a4f81c8816a021c4d7, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1373456326, guid: 633cfb21c4bdc4a4f81c8816a021c4d7, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 419843291, guid: 633cfb21c4bdc4a4f81c8816a021c4d7, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 979189992, guid: 633cfb21c4bdc4a4f81c8816a021c4d7, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 581220310, guid: 633cfb21c4bdc4a4f81c8816a021c4d7, type: 3}
+    drivers:
+      values: 
+      keys: []
+  controlDriverNew:
+    name: 
+    controll: {fileID: 0}
+    autoIncrement: 1
+    percentageBased: 0
+    guid: 731c5531-878b-4136-9773-2b5af667f9b6
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710377662ee5c24c99a823c421eb0b2, type: 3}
+  m_Name: CoctailQuestStart2Graph
+  m_EditorClassIdentifier: 
+  FileName: CoctailQuestStart2
+  Groups: []
+  Nodes:
+  - ID: d4f49c5a-7da0-4812-9d8f-42324335d5cc
+    Name: CP.SQUEST.COCTAIL_START_0002
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: fabc729ee37a3744fb104918113aae17, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next dialogue
+      NodeID: ca26b5b6-a1db-4115-8759-6d57c02e5949
+    GroupID: 
+    Type: 1
+    Position: {x: 131, y: 106}
+  - ID: ca26b5b6-a1db-4115-8759-6d57c02e5949
+    Name: CP.KN_SQUEST.COCTAIL_START_0002
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next dialogue
+      NodeID: c1d272ad-5f9f-49a4-ae29-ac7b6fb00ef5
+    GroupID: 
+    Type: 1
+    Position: {x: 313, y: -108}
+  - ID: c1d272ad-5f9f-49a4-ae29-ac7b6fb00ef5
+    Name: CP.SQUEST.COCTAIL_START_0003
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: fabc729ee37a3744fb104918113aae17, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next dialogue
+      NodeID: ef9dfda9-0003-44f5-b2cf-6b4261916c66
+    GroupID: 
+    Type: 1
+    Position: {x: 500, y: 107}
+  - ID: ef9dfda9-0003-44f5-b2cf-6b4261916c66
+    Name: CP.SQUEST.COCTAIL_START_0004
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: fabc729ee37a3744fb104918113aae17, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next dialogue
+      NodeID: 4c5a4626-b09c-490e-8711-f139db9307d5
+    GroupID: 
+    Type: 1
+    Position: {x: 760, y: 108}
+  - ID: 4c5a4626-b09c-490e-8711-f139db9307d5
+    Name: CP.KN_SQUEST.COCTAIL_START_0004
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next dialogue
+      NodeID: 21c86546-0d21-415e-afe7-5ea9af0c2adc
+    GroupID: 
+    Type: 1
+    Position: {x: 986, y: -108}
+  - ID: 21c86546-0d21-415e-afe7-5ea9af0c2adc
+    Name: CP.SQUEST.COCTAIL_START_0005
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: fabc729ee37a3744fb104918113aae17, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next dialogue
+      NodeID: a05566a5-6239-45e1-b7b2-5afa4e5efd0a
+    GroupID: 
+    Type: 1
+    Position: {x: 1136, y: 107}
+  - ID: a05566a5-6239-45e1-b7b2-5afa4e5efd0a
+    Name: CP.KN_SQUEST.COCTAIL_START_0005
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next dialogue
+      NodeID: 9856b818-222a-4354-8692-46cdafa22936
+    GroupID: 
+    Type: 1
+    Position: {x: 1311, y: -107}
+  - ID: 2d6d4c74-0ec8-4e21-8242-1b61a4abeee0
+    Name: CP.KN_SQUEST.COCTAIL_START_YES_0001
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next dialogue
+      NodeID: 8d98b626-7187-4f70-b3b3-64c957269143
+    GroupID: 
+    Type: 1
+    Position: {x: 2126, y: -267}
+  - ID: cb7f11d6-ceb9-4ea8-8777-2ab20e4ba509
+    Name: CP.KN_SQUEST.COCTAIL_START_NO_0001
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next dialogue
+      NodeID: b02b8daf-d1e1-4d26-b1b6-635eebc2e8e5
+    GroupID: 
+    Type: 1
+    Position: {x: 2128, y: -49}
+  - ID: b02b8daf-d1e1-4d26-b1b6-635eebc2e8e5
+    Name: CP.SQUEST.COCTAIL_NO_0001
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: fabc729ee37a3744fb104918113aae17, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next dialogue
+      NodeID: 0e3a19c1-21d9-4744-ac87-53dc6b65f546
+    GroupID: 
+    Type: 1
+    Position: {x: 2494, y: -48}
+  - ID: 9856b818-222a-4354-8692-46cdafa22936
+    Name: CP.SQUEST.COCTAIL_START_0006
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: fabc729ee37a3744fb104918113aae17, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: CP.CH_SQUEST.COCTAIL_START_YES_0001
+      NodeID: 2d6d4c74-0ec8-4e21-8242-1b61a4abeee0
+    - Text: CP.CH_SQUEST.COCTAIL_START_NO_0001
+      NodeID: cb7f11d6-ceb9-4ea8-8777-2ab20e4ba509
+    - Text: CP.CH_SQUEST.COCTAIL_START_EVIL_0001
+      NodeID: 55181ecb-f229-4d0f-8d4b-f708ba4f448d
+    GroupID: 
+    Type: 2
+    Position: {x: 1608, y: 36}
+  - ID: 8d98b626-7187-4f70-b3b3-64c957269143
+    Name: CoctailQuestAccepted
+    Text: Some text of the dialogue
+    Actor: {fileID: 0}
+    Event: {fileID: 11400000, guid: 4bae74a2cb5a4fb4ba15b2c9454e7546, type: 2}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 3
+    Position: {x: 2494, y: -266}
+  - ID: 90c17c29-67bf-4870-8edc-d88c5a88da5c
+    Name: CoctailQuestEvilMode
+    Text: Some text of the dialogue
+    Actor: {fileID: 0}
+    Event: {fileID: 11400000, guid: 36079ec5630d1fa4dbdf773f8aba7bc8, type: 2}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 3
+    Position: {x: 2819, y: 181}
+  - ID: 55181ecb-f229-4d0f-8d4b-f708ba4f448d
+    Name: CP.KN_SQUEST.COCTAIL_START_EVIL_0001
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next dialogue
+      NodeID: c057646f-b66a-4eee-898a-ed82634151af
+    GroupID: 
+    Type: 1
+    Position: {x: 2129, y: 166}
+  - ID: c057646f-b66a-4eee-898a-ed82634151af
+    Name: CP.KN_SQUEST.COCTAIL_EVIL_0001
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 90c17c29-67bf-4870-8edc-d88c5a88da5c
+    GroupID: 
+    Type: 1
+    Position: {x: 2487, y: 175}
+  - ID: 0e3a19c1-21d9-4744-ac87-53dc6b65f546
+    Name: CoctailQuestDiscard
+    Text: Some text of the dialogue
+    Actor: {fileID: 0}
+    Event: {fileID: 11400000, guid: 9ab4c57ba727e854caf656ae95fb467f, type: 2}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 3
+    Position: {x: 2795, y: -36}
+  OldGroupNames: []
+  OldUngroupedNodeNames:
+  - CP.SQUEST.COCTAIL_START_0002
+  - CP.KN_SQUEST.COCTAIL_START_0002
+  - CP.SQUEST.COCTAIL_START_0003
+  - CP.SQUEST.COCTAIL_START_0004
+  - CP.KN_SQUEST.COCTAIL_START_0004
+  - CP.SQUEST.COCTAIL_START_0005
+  - CP.KN_SQUEST.COCTAIL_START_0005
+  - CP.KN_SQUEST.COCTAIL_START_YES_0001
+  - CP.KN_SQUEST.COCTAIL_START_NO_0001
+  - CP.SQUEST.COCTAIL_NO_0001
+  - CP.SQUEST.COCTAIL_START_0006
+  - CoctailQuestAccepted
+  - CoctailQuestEvilMode
+  - CP.KN_SQUEST.COCTAIL_START_EVIL_0001
+  - CP.KN_SQUEST.COCTAIL_EVIL_0001
+  - CoctailQuestDiscard
+  OldGroupedNodeNames:
+    list: []

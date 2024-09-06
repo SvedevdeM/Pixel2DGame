@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78fdd7c50a0553448335fa47abd4178, type: 3}
+  m_Name: CorruptedStudentSwitch
+  m_EditorClassIdentifier: 
+  Name: 
+  nodes:
+  - {fileID: 11400000, guid: e9c11685f8027cc4e89eadc891accda7, type: 2}
+  - {fileID: 11400000, guid: 452a2f072f1945f499e4668da9c82576, type: 2}
+  controlDriver:
+    name: 
+    controll: {fileID: 11400000, guid: 7e1e79dd6f9358647a3af66824bd2767, type: 2}
+    autoIncrement: 0
+    percentageBased: 0
+    guid: f411204d-1201-40e0-a82e-2c614e472b64
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

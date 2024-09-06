@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2671bd653334d748b8e648c45cbec2c, type: 3}
+  m_Name: ArchCultistIdle1
+  m_EditorClassIdentifier: 
+  Name: 
+  cels:
+  - sprite: {fileID: 708839363, guid: 253586750fb0b564494d930c3a5d289c, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 735204371, guid: 253586750fb0b564494d930c3a5d289c, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 488537477, guid: 253586750fb0b564494d930c3a5d289c, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 970475441, guid: 253586750fb0b564494d930c3a5d289c, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -1288447775, guid: 253586750fb0b564494d930c3a5d289c, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 905226467, guid: 253586750fb0b564494d930c3a5d289c, type: 3}
+    drivers:
+      values: 
+      keys: []
+  controlDriverNew:
+    name: 
+    controll: {fileID: 0}
+    autoIncrement: 1
+    percentageBased: 0
+    guid: e9f6e76a-5d91-4c22-b6c4-440ca2ca66a1
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78fdd7c50a0553448335fa47abd4178, type: 3}
+  m_Name: UsualStudentBoy1Switch
+  m_EditorClassIdentifier: 
+  Name: 
+  nodes:
+  - {fileID: 11400000, guid: f87bcbdb2a1833b49b994c0a43f82130, type: 2}
+  - {fileID: 11400000, guid: 62ed5d5694d680c4d97aa78d64c19bf9, type: 2}
+  controlDriver:
+    name: 
+    controll: {fileID: 11400000, guid: 706b90e55c07f2d4e9044d1041520ef7, type: 2}
+    autoIncrement: 0
+    percentageBased: 0
+    guid: 8e3cbd2d-ba03-417f-be85-d07f5108a16e
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

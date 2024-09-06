@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b14a46de6ce238489b3e9309c4d902d, type: 3}
+  m_Name: CoctailQuestStart2
+  m_EditorClassIdentifier: 
+  FileName: CoctailQuestStart2
+  Groups:
+    list: []
+  UngroupedDialogues:
+  - {fileID: 11400000, guid: fdfd9b79c34e1274fb7615b48815abe1, type: 2}
+  - {fileID: 11400000, guid: ca1599edf5a9d9e44929af101e0d386d, type: 2}
+  - {fileID: 11400000, guid: ae080efbfe4a87743bd7f69db722d0bf, type: 2}
+  - {fileID: 11400000, guid: a0128fee7ee5aa04588fbc28c7746ea4, type: 2}
+  - {fileID: 11400000, guid: a3d493a07980cd84cb61e72201973112, type: 2}
+  - {fileID: 11400000, guid: 7bbc1ebefb15abf43abd95b4cc2d875a, type: 2}
+  - {fileID: 11400000, guid: 4acedea51ec227d4182cb7cf54ed2ec0, type: 2}
+  - {fileID: 11400000, guid: 084a5f0141d571a4a937999b2bfb40c6, type: 2}
+  - {fileID: 11400000, guid: c6ffe31a3c216954cb2ea37622ef4b84, type: 2}
+  - {fileID: 11400000, guid: 86b226787336bfc47a92f8ebf061d782, type: 2}
+  - {fileID: 11400000, guid: 00eb000899683d448904f45937363409, type: 2}
+  - {fileID: 11400000, guid: 8635c9153c378244d9924f360aca3254, type: 2}
+  - {fileID: 11400000, guid: b7a26b4fb0902e14987dc010bfba72d3, type: 2}
+  - {fileID: 11400000, guid: 4c41b58d3bfce294d933c7b0cc6cc23b, type: 2}
+  - {fileID: 11400000, guid: 0f9dd9aab5175fd4ba77350453127d8d, type: 2}
+  - {fileID: 11400000, guid: d956c82258ffb44449b7683db4811492, type: 2}

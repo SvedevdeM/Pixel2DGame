@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b14a46de6ce238489b3e9309c4d902d, type: 3}
+  m_Name: UsualStudentGirl4Dialogue2
+  m_EditorClassIdentifier: 
+  FileName: UsualStudentGirl4Dialogue2
+  Groups:
+    list: []
+  UngroupedDialogues:
+  - {fileID: 11400000, guid: 8e9b5961584c99f4a8f166dd8a3a96ba, type: 2}
+  - {fileID: 11400000, guid: 43bcb2f540f33d04fb6e891758f6140d, type: 2}
+  - {fileID: 11400000, guid: 77b6081a63675764ea02c61d8aaa0bbd, type: 2}
+  - {fileID: 11400000, guid: b002b64a97ce4c84586cbda84f993a3a, type: 2}
+  - {fileID: 11400000, guid: 7d6197f358c7ac24881592dc5d73d01a, type: 2}

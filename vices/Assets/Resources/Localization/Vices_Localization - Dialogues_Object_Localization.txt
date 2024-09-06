@@ -1,0 +1,26 @@
+ID	GROUP	SUB_GROUP	LOCALIZATION_KEY	RU	ENG	FRA	DEU	SPA	POL	POR	CHI	ITA	KOR
+1	CONST	KN_OBJECT	CHAL	Каменная чаша, стоит на колонне, видел такие в книжках про средневековье.	A stone chalise, standing on a column, I've seen them in books about the Middle Ages.								
+2	CONST	KN_OBJECT	ALTAR	О, на этом алтаре фанатики призвали эти странные цепи, зеркало и синий огонь, выглядело так, что я поверил в сверхъестественное, по крайней мере, у меня нет объяснения произошедшему.	Oh, on this altar, the fanatics invoked these strange chains, a mirror and black fire, it makes me believed in the supernatural, at least I have no explanation for what happened.								
+3	CONST	KN_OBJECT	GARDENERHOUSE	Дом садовника, тут даже табличка есть. Должно быть, сейчас садовник не живет при колледже.	The gardener's house, there's a sign here. The gardener is not be living at the college i think.								
+4	CONST	KN_OBJECT	PEDESTAL	Над этим пьедесталом появилось зеркало, и повисло в воздухе, меня тревожит, что все это вообще не походит на шоу или фокусы.	A book appeared above this pedestal and hung in the air, it scares me that all this does not look like a show or magic tricks at all.								
+5	CONST	KN_OBJECT	GARDENERCHEST	Старый сундук с мертвым котом и садовым инвентарем, всё чтобы кусты хорошо росли.	An old chest with a dead cat and garden tools, everything to make the bushes grow well.								
+6	CONST	KN_OBJECT	STATUE	ИНФОРМАЦИЯ О ПРЕДМЕТЕ, ЗАМЕНИТЬ, КОГДА БУДЕТ СПРАЙТ СТАТУИ	ИНФОРМАЦИЯ О ПРЕДМЕТЕ, ЗАМЕНИТЬ, КОГДА БУДЕТ СПРАЙТ СТАТУИ								
+7	CONST	KN_OBJECT	BOOKSHELF	Книжная полка, много интересного на ней, еще больше не интересного.	A bookshelf. A lot of interesting things on it, even more not interesting.								
+8	CONST	KN_OBJECT	SINK	Мне не нужно умываться, да и пить я не хочу.	I don't need to wash, and I don't want to drink.								
+9	CONST	KN_OBJECT	FIREPLACE	Классный камин, у дедушки тоже был камин. Прибраться бы здесь, да как нибудь посидеть перед камином в хорошей компании.	It's a cool fireplace, Grandpa had a fireplace too. I would like to clean up here, and somehow sit in front of it in good company.								
+10	CONST	KN_OBJECT	LOFABATH	Эта вода пахнет тухлыми яйцами. Отвратительно.	This water smells like rotten eggs. Disgusting.								
+11	CONST	KN_OBJECT	LOFABED	Это просто кровать. Довольно грубая, но говорят на твердом спать полезно.	It's just a bed. It's pretty rough, but I've heard it's useful to sleep on solid.								
+12	CONST	KN_OBJECT	LOFASHOWCASE	Этой витриной давно никто не пользовался. Пыль уже сантиметровым слоем лежит!	This showcase has not been used for a long time. There's already half an inch of dust here.								
+13	CONST	KN_OBJECT	LOFABOOKSHELF	Какие-то древние фолианты, энциклопедии, половина названий вообще на непонятных языках, занимательная полочка.	Some ancient folios and encyclopedias. Half of the titles are generally in incomprehensible languages. A pretty interesting bookshelf.								
+14	CONST	KN_OBJECT	BURNEDSHOWCASE	Тут что-то явно лежало, не вижу следов того что могло бы воспламенится.	There was clearly something lying here, I don't see any traces of what could ignite.								
+15	CONST	KN_OBJECT	OLDSTREETLIGHT	Старый фонарь. Весь проржавел.И лампа не горит.	An old lantern. It's all rusted out.And the lamp is not lit.								
+16	CONST	KN_OBJECT	LOFACHEST	Сундук. Грубый, но функциональный. Сколочен как будто из случайных досок.	Chest. Rough but functional. It looks like it was made of random boards.								
+17	CONST	KN_OBJECT	TUB	Большая лохань для мытья посуды и стирки. Ужасно воняет.	A large tub for washing dishes and laundry. It stinks terrible.								
+18	CONST	KN_OBJECT	BONFIRESITE	Здесь можно развести костер, пожарить зефир и рассказать страшную историю. Хорошо бы найти компанию и провести тут пару вечеров.	Here you can make a bonfire, roast marshmallows and tell a scary story. It would be nice to find some company and spend a couple of evenings here.								
+19	CONST	KN_OBJECT	BASKETBALLHOOP	Погнутое старое баскетбольное кольцо. Навести бы здесь порядок и починить его. В школе мне нравилось играть в баскет с друзьями, может и здесь получится.	An old bent basketball hoop. I'd like to fix it and clean up here. I enjoyed playing basketball with my school friends, maybe I can do it here.								
+20	CONST	KN_OBJECT	EYERING	Интересное кольцо, как будто этот глаз смотрит на меня. Бррр, аж мурашки по спине.	An interesting ring, as if this eye is looking at me. Brrr, it gives me goosebumps.								
+21	CONST	KN_OBJECT	ALTARENTER	Что?! Что за чертовщина?! Почему вдруг наступила ночь?!	What?! What the hell is this?! Why is it suddenly night?!								
+22	CONST	KN_OBJECT	GARDENERHOUSEDOOR	Черт заклинило.	Damn, it's stuck.								
+23	CONST	KN_OBJECT	VENTILATION	Нет, увольте, обратно к этим зомби я не полезу.	No, please, I'm not going back to those zombies.								
+24	CONST	KN_OBJECT	GUITAR	Моя малышка...	My baby...								
+24	CONST	KN_OBJECT	CLOSEDDOOR	Заперто!	It's locked!								

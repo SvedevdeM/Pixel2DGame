@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710377662ee5c24c99a823c421eb0b2, type: 3}
+  m_Name: CatQuestFinalGraph
+  m_EditorClassIdentifier: 
+  FileName: CatQuestFinal
+  Groups: []
+  Nodes:
+  - ID: 415b3a80-7d57-45e0-8350-d86afd8e4f2c
+    Name: CP.SPQUEST.CAT_FINAL_NO_0002
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: ec052289fc6aeb4408cf629b59f16c6f, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 9e4672dd-1e57-49bb-a281-60afab368565
+    GroupID: 
+    Type: 1
+    Position: {x: 749, y: 208}
+  - ID: 3b7a587e-621d-434f-b365-143e3ec61d7d
+    Name: CP.SPQUEST.CAT_FINAL_NO_0003
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: ec052289fc6aeb4408cf629b59f16c6f, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 838d7eb9-1180-4eaa-a3dd-b06db5a367b5
+    GroupID: 
+    Type: 1
+    Position: {x: 1282, y: 199}
+  - ID: 0a566d04-ed75-468c-a148-5b582b1aa4c8
+    Name: CATSTOLEN
+    Text: Some text of the dialogue
+    Actor: {fileID: 0}
+    Event: {fileID: 11400000, guid: 67074fd6608161d4f8e8348c53dfa6fc, type: 2}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 3
+    Position: {x: 1853, y: 290}
+  - ID: 55ccb426-a060-4c33-9d13-b0751d39664c
+    Name: CP.SPQUEST.CAT_FINAL_YES_0001
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: ec052289fc6aeb4408cf629b59f16c6f, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: ab1c275c-77f4-41b6-9122-89b1f2ebcd71
+    GroupID: 
+    Type: 1
+    Position: {x: 753, y: -95}
+  - ID: ab1c275c-77f4-41b6-9122-89b1f2ebcd71
+    Name: CP.SPQUEST.CAT_FINAL_YES_0002
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 40b512d29404ea84cab30cfbc51a61e3, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 301fc564-dbaf-4df0-ab8e-6059131f9bdc
+    GroupID: 
+    Type: 1
+    Position: {x: 1029, y: -195}
+  - ID: 38096d68-49ef-4ca8-b321-933d967690bc
+    Name: CatDone
+    Text: Some text of the dialogue
+    Actor: {fileID: 0}
+    Event: {fileID: 11400000, guid: c787377a47d3a4546b5f6c92a82fce17, type: 2}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 3
+    Position: {x: 1894, y: -39}
+  - ID: f79b532b-b7ed-4c23-90fc-6dda1f304c44
+    Name: CP.SPQUEST.CAT_FINAL_0001
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: ec052289fc6aeb4408cf629b59f16c6f, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: CP.CH_SQUEST.CAT_FINAL_YES_0001
+      NodeID: e80499cf-bb84-4fb4-a943-4cf8ce7a31f6
+    - Text: CP.CH_SQUEST.CAT_FINAL_NO_0001
+      NodeID: 69801576-7190-42f7-88a5-4feb92fd66be
+    GroupID: 
+    Type: 2
+    Position: {x: 34, y: 140}
+  - ID: 301fc564-dbaf-4df0-ab8e-6059131f9bdc
+    Name: CP.SPQUEST.CAT_FINAL_YES_0003
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: ec052289fc6aeb4408cf629b59f16c6f, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: a3efdedc-4447-42f1-8cba-5a9e8420248a
+    GroupID: 
+    Type: 1
+    Position: {x: 1297, y: -94}
+  - ID: e80499cf-bb84-4fb4-a943-4cf8ce7a31f6
+    Name: CP.KN_SPQUEST.CAT_FINAL_YES_0001
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 55ccb426-a060-4c33-9d13-b0751d39664c
+    GroupID: 
+    Type: 1
+    Position: {x: 462, y: -39}
+  - ID: 69801576-7190-42f7-88a5-4feb92fd66be
+    Name: CP.KN_SPQUEST.CAT_FINAL_NO_0001
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 415b3a80-7d57-45e0-8350-d86afd8e4f2c
+    GroupID: 
+    Type: 1
+    Position: {x: 468, y: 299}
+  - ID: 9e4672dd-1e57-49bb-a281-60afab368565
+    Name: CP.KN_SPQUEST.CAT_FINAL_NO_0002
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 3b7a587e-621d-434f-b365-143e3ec61d7d
+    GroupID: 
+    Type: 1
+    Position: {x: 1008, y: 291}
+  - ID: a3efdedc-4447-42f1-8cba-5a9e8420248a
+    Name: CP.KN_SPQUEST.CAT_FINAL_YES_0003
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 38096d68-49ef-4ca8-b321-933d967690bc
+    GroupID: 
+    Type: 1
+    Position: {x: 1577, y: -39}
+  - ID: 838d7eb9-1180-4eaa-a3dd-b06db5a367b5
+    Name: CP.KN_SPQUEST.CAT_FINAL_NO_0003
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 0a566d04-ed75-468c-a148-5b582b1aa4c8
+    GroupID: 
+    Type: 1
+    Position: {x: 1531, y: 290}
+  OldGroupNames: []
+  OldUngroupedNodeNames:
+  - CP.SPQUEST.CAT_FINAL_NO_0002
+  - CP.SPQUEST.CAT_FINAL_NO_0003
+  - CATSTOLEN
+  - CP.SPQUEST.CAT_FINAL_YES_0001
+  - CP.SPQUEST.CAT_FINAL_YES_0002
+  - CatDone
+  - CP.SPQUEST.CAT_FINAL_0001
+  - CP.SPQUEST.CAT_FINAL_YES_0003
+  - CP.KN_SPQUEST.CAT_FINAL_YES_0001
+  - CP.KN_SPQUEST.CAT_FINAL_NO_0001
+  - CP.KN_SPQUEST.CAT_FINAL_NO_0002
+  - CP.KN_SPQUEST.CAT_FINAL_YES_0003
+  - CP.KN_SPQUEST.CAT_FINAL_NO_0003
+  OldGroupedNodeNames:
+    list: []

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78fdd7c50a0553448335fa47abd4178, type: 3}
+  m_Name: MovingOrNot
+  m_EditorClassIdentifier: 
+  Name: 
+  nodes:
+  - {fileID: 11400000, guid: a84f5b685a47ae84390371e0a3325517, type: 2}
+  - {fileID: 11400000, guid: 513b7e5447294124599d0b4158f5a5c1, type: 2}
+  - {fileID: 11400000, guid: fd6cdaa6b5a9dfa4b94f782336d47602, type: 2}
+  - {fileID: 11400000, guid: 4df36b66bad385c4cbe9aefe80043eb0, type: 2}
+  - {fileID: 11400000, guid: b262669458c22d1408ff6716f68a8de4, type: 2}
+  controlDriver:
+    name: 
+    controll: {fileID: 11400000, guid: 362fa350c6b24d34a9d0fe27ccc29f92, type: 2}
+    autoIncrement: 0
+    percentageBased: 0
+    guid: 29f40142-5452-4a20-b7d1-c799df043e98
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

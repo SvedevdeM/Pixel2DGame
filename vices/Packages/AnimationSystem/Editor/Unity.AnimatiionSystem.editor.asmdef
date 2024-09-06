@@ -1,0 +1,16 @@
+{
+    "name": "Unity.AnimationSystem.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a2874f96b41bd974d8f46b3e73e12179"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

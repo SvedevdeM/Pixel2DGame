@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78fdd7c50a0553448335fa47abd4178, type: 3}
+  m_Name: TamirSwitch
+  m_EditorClassIdentifier: 
+  Name: 
+  nodes:
+  - {fileID: 11400000, guid: 6b5f1ad02a242254b95135e01555de4a, type: 2}
+  - {fileID: 11400000, guid: 96bb1af6d257bdf479c0eddb187943da, type: 2}
+  - {fileID: 11400000, guid: e3efd51d4002dc346b69ba276dcddc45, type: 2}
+  - {fileID: 11400000, guid: 86e4e29c1f9ec0942b39091696fbfc6e, type: 2}
+  - {fileID: 11400000, guid: 3d43e234ed9ad55468500d3e84a4641d, type: 2}
+  - {fileID: 11400000, guid: bfda7b65278059f4d8cae856656491c0, type: 2}
+  controlDriver:
+    name: 
+    controll: {fileID: 11400000, guid: 56a9e6a73b86363449c83b99ca0cbb08, type: 2}
+    autoIncrement: 0
+    percentageBased: 0
+    guid: 398e3970-99cf-4827-bb58-c64afd198a36
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

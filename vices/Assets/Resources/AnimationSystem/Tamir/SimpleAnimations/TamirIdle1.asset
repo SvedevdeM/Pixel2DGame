@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2671bd653334d748b8e648c45cbec2c, type: 3}
+  m_Name: TamirIdle1
+  m_EditorClassIdentifier: 
+  Name: 
+  cels:
+  - sprite: {fileID: 1908160461, guid: b0ec574dc7d8e8e4eb302dddd0929900, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -1160348089, guid: b0ec574dc7d8e8e4eb302dddd0929900, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 158110189, guid: b0ec574dc7d8e8e4eb302dddd0929900, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -393393890, guid: b0ec574dc7d8e8e4eb302dddd0929900, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -1421798566, guid: b0ec574dc7d8e8e4eb302dddd0929900, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -486435603, guid: b0ec574dc7d8e8e4eb302dddd0929900, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1374719731, guid: b0ec574dc7d8e8e4eb302dddd0929900, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -1010158348, guid: b0ec574dc7d8e8e4eb302dddd0929900, type: 3}
+    drivers:
+      values: 
+      keys: []
+  controlDriverNew:
+    name: 
+    controll: {fileID: 0}
+    autoIncrement: 1
+    percentageBased: 0
+    guid: 30574c65-664d-41b2-8590-68636be000d9
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

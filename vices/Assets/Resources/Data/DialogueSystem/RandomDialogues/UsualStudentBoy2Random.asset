@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d58a1429f83d044b9363e43df5357b, type: 3}
+  m_Name: UsualStudentBoy2Random
+  m_EditorClassIdentifier: 
+  Dialogues:
+  - {fileID: 11400000, guid: 622cb6c008e20e341bfcb2b8128e5ff8, type: 2}
+  - {fileID: 11400000, guid: c4fa764be6fc23c4cbf2e169008e7ee6, type: 2}
+  - {fileID: 11400000, guid: 49bff45e9529ddc44b173d52a9f75d70, type: 2}
+  - {fileID: 11400000, guid: 6e5c0ce1db1eb8b4a8554377a716632b, type: 2}
+  - {fileID: 11400000, guid: ecea2d019a719304da530e1393eee680, type: 2}

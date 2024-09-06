@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78fdd7c50a0553448335fa47abd4178, type: 3}
+  m_Name: CultistMainSwitch
+  m_EditorClassIdentifier: 
+  Name: 
+  nodes:
+  - {fileID: 11400000, guid: fba43e0dd15e2c94ca68d78cb2ffa056, type: 2}
+  - {fileID: 11400000, guid: b0e2d1473fcc8ed4a9b485f588498112, type: 2}
+  - {fileID: 11400000, guid: 6550055c195fa8547887c8c46119ad31, type: 2}
+  - {fileID: 11400000, guid: a6429126b79e36542aab5510218c6115, type: 2}
+  controlDriver:
+    name: 
+    controll: {fileID: 11400000, guid: a4cc37a8e89fcc24f9d0662f5a833b20, type: 2}
+    autoIncrement: 0
+    percentageBased: 0
+    guid: 775e584e-b108-44d4-b8a3-6d022c340320
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

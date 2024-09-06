@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710377662ee5c24c99a823c421eb0b2, type: 3}
+  m_Name: CatQuestNoFinalGraph
+  m_EditorClassIdentifier: 
+  FileName: CatQuestNoFinal
+  Groups: []
+  Nodes:
+  - ID: e6c932bd-263d-42c0-ba2d-e495dee7d028
+    Name: CP.SPQUEST.CAT_NO_0002
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: ec052289fc6aeb4408cf629b59f16c6f, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 1
+    Position: {x: 297, y: -56}
+  OldGroupNames: []
+  OldUngroupedNodeNames:
+  - CP.SPQUEST.CAT_NO_0002
+  OldGroupedNodeNames:
+    list: []

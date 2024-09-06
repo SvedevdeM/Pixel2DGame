@@ -1,0 +1,5878 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbea623ca79d9a142b0118e36c9d92ae, type: 3}
+  m_Name: CoctailQuestTable
+  m_EditorClassIdentifier: 
+  Facts:
+  - Name: NumberOfPapers
+    ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: questAccepted
+    ID: d78c903f-8062-4212-8450-01113393f676
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: questDone
+    ID: fe8f42c1-19ef-4d07-9cbc-9c11b202ff87
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: questDoneEvil
+    ID: bd885d44-f60b-43af-95c2-8cd2b14be23c
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: questDoneExcelent
+    ID: 90bd671d-43d4-409a-842c-ad6a66d6c691
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: questDiscard
+    ID: ae85ba42-518a-4786-9b3e-458c1f00cda3
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: questAcceptedEvil
+    ID: 9f6e25b6-69be-4cb3-802b-c751e987e02f
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: ValveClosed
+    ID: 9d1eb004-6ceb-47ef-b72f-89b6696227e8
+    Usages: 0
+    Once: 0
+    Value: 0
+  - Name: CoctailQuestBaited
+    ID: dde843fc-a20f-45dc-b12e-38cc999cd597
+    Usages: 0
+    Once: 0
+    Value: 0
+  Events:
+  - Name: I_need_Help
+    ID: a1803a6a-d3a0-40c3-8b22-6d5d92bf1858
+    Usages: 0
+    Once: 0
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 89fdfba026b24054594fa4126f3ea27f, type: 2}
+  - Name: StartCoctailQuest
+    ID: 0e2485c9-2a03-4bd9-98e8-a8b709dd702f
+    Usages: 0
+    Once: 1
+    Criterias:
+    - Fact:
+        Name: questAccepted
+        ID: d78c903f-8062-4212-8450-01113393f676
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 3
+      Value: 1
+    - Fact:
+        Name: questDiscard
+        ID: ae85ba42-518a-4786-9b3e-458c1f00cda3
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 3
+      Value: 1
+    - Fact:
+        Name: questAcceptedEvil
+        ID: 9f6e25b6-69be-4cb3-802b-c751e987e02f
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 3
+      Value: 1
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: cf8d5fd228255734098a897055504293, type: 2}
+  - Name: PaperPickUp
+    ID: 282a541a-d4bc-4a39-af94-530cf5c435ea
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: questAcceptedEvil
+        ID: 9f6e25b6-69be-4cb3-802b-c751e987e02f
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 3
+      Value: 1
+    - Fact:
+        Name: questDiscard
+        ID: ae85ba42-518a-4786-9b3e-458c1f00cda3
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 3
+      Value: 1
+    - Fact:
+        Name: questAccepted
+        ID: d78c903f-8062-4212-8450-01113393f676
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 2
+      Value: 1
+    Modifications: []
+    Rule:
+      Name: PaperChecker
+      ID: e9b6f3f2-44b2-465f-b7cb-882e9983b61c
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers:
+      - Name: PaperPickUp1
+        ID: ab08d420-5003-437a-b3f8-b2799b56e45e
+        Usages: 0
+        Once: 1
+        Criterias: []
+        Modifications:
+        - Fact:
+            Name: NumberOfPapers
+            ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 1
+          Value: 1
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: 06d2da23cf498364481a4f547e4c8d5c, type: 2}
+      - Name: PaperPickUp2
+        ID: 4a866425-6803-4755-9010-897a69478d34
+        Usages: 0
+        Once: 1
+        Criterias: []
+        Modifications:
+        - Fact:
+            Name: NumberOfPapers
+            ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 1
+          Value: 1
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: 30363753e5e8c92458ef65b40cdd560e, type: 2}
+      - Name: PaperPickUp3
+        ID: deaa5a84-1d52-473f-8910-94eb95162832
+        Usages: 0
+        Once: 1
+        Criterias: []
+        Modifications:
+        - Fact:
+            Name: NumberOfPapers
+            ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 1
+          Value: 1
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: 30700a7e5599a094ab473acdade20bf6, type: 2}
+      - Name: PaperPickUp4
+        ID: 65debca3-9167-43d1-989c-ae87013f9ebe
+        Usages: 0
+        Once: 1
+        Criterias: []
+        Modifications:
+        - Fact:
+            Name: NumberOfPapers
+            ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 1
+          Value: 1
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: 9e6cefa362fd81d41ad6e299cb409ddc, type: 2}
+      - Name: PaperPickUp5
+        ID: cd36ae32-8785-4a0c-9c66-2e95276749d5
+        Usages: 0
+        Once: 1
+        Criterias: []
+        Modifications:
+        - Fact:
+            Name: NumberOfPapers
+            ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 1
+          Value: 1
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: 43484aa28c80bcd458ed470c163acc66, type: 2}
+    Type: 0
+    Object: {fileID: 0}
+  - Name: PaperPickUp1
+    ID: ab08d420-5003-437a-b3f8-b2799b56e45e
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: NumberOfPapers
+        ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 06d2da23cf498364481a4f547e4c8d5c, type: 2}
+  - Name: PaperPickUp2
+    ID: 4a866425-6803-4755-9010-897a69478d34
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: NumberOfPapers
+        ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 30363753e5e8c92458ef65b40cdd560e, type: 2}
+  - Name: PaperPickUp3
+    ID: deaa5a84-1d52-473f-8910-94eb95162832
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: NumberOfPapers
+        ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 30700a7e5599a094ab473acdade20bf6, type: 2}
+  - Name: PaperPickUp4
+    ID: 65debca3-9167-43d1-989c-ae87013f9ebe
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: NumberOfPapers
+        ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 9e6cefa362fd81d41ad6e299cb409ddc, type: 2}
+  - Name: PaperPickUp5
+    ID: cd36ae32-8785-4a0c-9c66-2e95276749d5
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: NumberOfPapers
+        ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 43484aa28c80bcd458ed470c163acc66, type: 2}
+  - Name: YESFinal
+    ID: b1356a88-f0a9-444f-ab4b-976ea16ce571
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: questAccepted
+        ID: d78c903f-8062-4212-8450-01113393f676
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 2
+      Value: 1
+    Modifications: []
+    Rule:
+      Name: YESFinal_Checker
+      ID: 9699b710-5f6f-47ef-9fa6-1a1133bba171
+      Usages: 0
+      Once: 0
+      Criterias:
+      - Fact:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 0
+        Value: 0
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers:
+      - Name: YESFinal1
+        ID: 81bcbf42-f31f-4c30-922c-defa1cf047c4
+        Usages: 0
+        Once: 0
+        Criterias:
+        - Fact:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 2
+          Value: 3
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: 880b61d61b458cb469dc26201195df0a, type: 2}
+      - Name: YESFinal2
+        ID: 80ecb202-cd19-415e-a11d-e91cd189e190
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: 4b27474b2ffc2004dad28397cb16e5ab, type: 2}
+      - Name: YESFinal3
+        ID: 70e66014-e8f8-4576-a6fe-f5ff4fac8ee3
+        Usages: 0
+        Once: 0
+        Criterias:
+        - Fact:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 0
+          Value: 0
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: 8b11987f4fe2f0b4c85fda74043e358a, type: 2}
+    Type: 0
+    Object: {fileID: 0}
+  - Name: YESFinal1
+    ID: 81bcbf42-f31f-4c30-922c-defa1cf047c4
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: NumberOfPapers
+        ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 5
+      Value: 3
+    Modifications:
+    - Fact:
+        Name: questDone
+        ID: fe8f42c1-19ef-4d07-9cbc-9c11b202ff87
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 880b61d61b458cb469dc26201195df0a, type: 2}
+  - Name: YESFinal2
+    ID: 80ecb202-cd19-415e-a11d-e91cd189e190
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: NumberOfPapers
+        ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 5
+      Value: 4
+    Modifications:
+    - Fact:
+        Name: questDone
+        ID: fe8f42c1-19ef-4d07-9cbc-9c11b202ff87
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 4b27474b2ffc2004dad28397cb16e5ab, type: 2}
+  - Name: YESFinal3
+    ID: 70e66014-e8f8-4576-a6fe-f5ff4fac8ee3
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: NumberOfPapers
+        ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 5
+      Value: 5
+    Modifications:
+    - Fact:
+        Name: questDoneExcelent
+        ID: 90bd671d-43d4-409a-842c-ad6a66d6c691
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 8b11987f4fe2f0b4c85fda74043e358a, type: 2}
+  - Name: CoctailAnswerYes
+    ID: 7cbf9b43-54e2-49ed-9ba0-a4d611180780
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: questAccepted
+        ID: d78c903f-8062-4212-8450-01113393f676
+        Usages: 0
+        Once: 0
+        Value: 1
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  - Name: CoctailAnswerNo
+    ID: cdf59473-14a4-4af2-8a88-7d5a8b7a70fb
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: questDiscard
+        ID: ae85ba42-518a-4786-9b3e-458c1f00cda3
+        Usages: 0
+        Once: 0
+        Value: 1
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  - Name: CoctailAnswerEvil
+    ID: cc62a7ce-e027-4e91-a125-16aa1191f2fa
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications:
+    - Fact:
+        Name: questAcceptedEvil
+        ID: 9f6e25b6-69be-4cb3-802b-c751e987e02f
+        Usages: 0
+        Once: 0
+        Value: 1
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 0
+    Object: {fileID: 0}
+  - Name: YESNotEnough1
+    ID: bf9e1dd0-9bab-4fb7-8ecf-658e31f87f30
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: NumberOfPapers
+        ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 3
+      Value: 3
+    - Fact:
+        Name: NumberOfPapers
+        ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 0
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 3764f04e5aa561d4588643dfc080310d, type: 2}
+  - Name: FinalEvil
+    ID: 83784a56-a8d2-40c6-9294-48744101e69f
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: questAccepted
+        ID: d78c903f-8062-4212-8450-01113393f676
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 3
+      Value: 1
+    - Fact:
+        Name: questAcceptedEvil
+        ID: 9f6e25b6-69be-4cb3-802b-c751e987e02f
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 2
+      Value: 1
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: c668f5f0ce1a74c45a82921450475263, type: 2}
+  - Name: On_Talk_with_Trim
+    ID: 58c31652-554a-4582-8b28-c452d05c0a28
+    Usages: 0
+    Once: 0
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: TrimsDialogueRule
+      ID: 2db535e0-3e5e-4274-8bcb-b9c650cb7879
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers:
+      - Name: StartCoctailQuest
+        ID: 0e2485c9-2a03-4bd9-98e8-a8b709dd702f
+        Usages: 0
+        Once: 0
+        Criterias:
+        - Fact:
+            Name: questAccepted
+            ID: d78c903f-8062-4212-8450-01113393f676
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 5
+          Value: 0
+        - Fact:
+            Name: questDiscard
+            ID: ae85ba42-518a-4786-9b3e-458c1f00cda3
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 5
+          Value: 0
+        - Fact:
+            Name: questAcceptedEvil
+            ID: 9f6e25b6-69be-4cb3-802b-c751e987e02f
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 5
+          Value: 0
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: cf8d5fd228255734098a897055504293, type: 2}
+      - Name: YESFinal
+        ID: b1356a88-f0a9-444f-ab4b-976ea16ce571
+        Usages: 0
+        Once: 0
+        Criterias:
+        - Fact:
+            Name: questAccepted
+            ID: d78c903f-8062-4212-8450-01113393f676
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 2
+          Value: 1
+        Modifications: []
+        Rule:
+          Name: YESFinal_Checker
+          ID: 9699b710-5f6f-47ef-9fa6-1a1133bba171
+          Usages: 0
+          Once: 0
+          Criterias:
+          - Fact:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Value: 0
+            Type: 0
+            Value: 0
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers:
+          - Name: YESFinal1
+            ID: 81bcbf42-f31f-4c30-922c-defa1cf047c4
+            Usages: 0
+            Once: 0
+            Criterias:
+            - Fact:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Value: 0
+              Type: 2
+              Value: 3
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 1
+            Object: {fileID: 11400000, guid: 880b61d61b458cb469dc26201195df0a, type: 2}
+          - Name: YESFinal2
+            ID: 80ecb202-cd19-415e-a11d-e91cd189e190
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 1
+            Object: {fileID: 11400000, guid: 4b27474b2ffc2004dad28397cb16e5ab, type: 2}
+          - Name: YESFinal3
+            ID: 70e66014-e8f8-4576-a6fe-f5ff4fac8ee3
+            Usages: 0
+            Once: 0
+            Criterias:
+            - Fact:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Value: 0
+              Type: 0
+              Value: 0
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 1
+            Object: {fileID: 11400000, guid: 8b11987f4fe2f0b4c85fda74043e358a, type: 2}
+        Type: 0
+        Object: {fileID: 0}
+      - Name: FinalEvil
+        ID: 83784a56-a8d2-40c6-9294-48744101e69f
+        Usages: 0
+        Once: 0
+        Criterias:
+        - Fact:
+            Name: questAccepted
+            ID: d78c903f-8062-4212-8450-01113393f676
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 3
+          Value: 1
+        - Fact:
+            Name: questAcceptedEvil
+            ID: 9f6e25b6-69be-4cb3-802b-c751e987e02f
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 2
+          Value: 1
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: c668f5f0ce1a74c45a82921450475263, type: 2}
+      - Name: FinalNo
+        ID: 221dfb55-239f-43ad-860c-1c710949fee5
+        Usages: 0
+        Once: 0
+        Criterias:
+        - Fact:
+            Name: questAccepted
+            ID: d78c903f-8062-4212-8450-01113393f676
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 3
+          Value: 1
+        - Fact:
+            Name: questDiscard
+            ID: ae85ba42-518a-4786-9b3e-458c1f00cda3
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 2
+          Value: 1
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: c668f5f0ce1a74c45a82921450475263, type: 2}
+    Type: 0
+    Object: {fileID: 11400000, guid: cf8d5fd228255734098a897055504293, type: 2}
+  - Name: FinalNo
+    ID: 221dfb55-239f-43ad-860c-1c710949fee5
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: questAccepted
+        ID: d78c903f-8062-4212-8450-01113393f676
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 3
+      Value: 1
+    - Fact:
+        Name: questDiscard
+        ID: ae85ba42-518a-4786-9b3e-458c1f00cda3
+        Usages: 0
+        Once: 0
+        Value: 1
+      Type: 2
+      Value: 1
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: c668f5f0ce1a74c45a82921450475263, type: 2}
+  - Name: YESNotEnough2
+    ID: c42a5a09-b89f-43e7-a067-1885e4e7b5b0
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: NumberOfPapers
+        ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 3
+      Value: 1
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 348d7d0f8cb71a742b9f55a0b6d2b5eb, type: 2}
+  - Name: EvilReplique1
+    ID: 780cb905-6ba9-438c-b5d9-da6d44f60c51
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: ValveClosed
+        ID: 9d1eb004-6ceb-47ef-b72f-89b6696227e8
+        Usages: 0
+        Once: 0
+        Value: 1
+      Type: 3
+      Value: 1
+    Modifications:
+    - Fact:
+        Name: ValveClosed
+        ID: 9d1eb004-6ceb-47ef-b72f-89b6696227e8
+        Usages: 0
+        Once: 0
+        Value: 1
+      Type: 1
+      Value: 1
+    - Fact:
+        Name: questDoneEvil
+        ID: bd885d44-f60b-43af-95c2-8cd2b14be23c
+        Usages: 0
+        Once: 0
+        Value: 1
+      Type: 1
+      Value: 1
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: 813e317f83f458643bf29e8707929cad, type: 2}
+  - Name: EvilFinalReplique
+    ID: 0b24a6b0-beff-4c1d-ad77-70b6bf6820c0
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: ValveClosed
+        ID: 9d1eb004-6ceb-47ef-b72f-89b6696227e8
+        Usages: 0
+        Once: 0
+        Value: 1
+      Type: 2
+      Value: 1
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers: []
+    Type: 1
+    Object: {fileID: 11400000, guid: aba8e55ea09aa6e4b9834e3965e44f05, type: 2}
+  - Name: ValveInteraction
+    ID: 3cec0989-9d08-4f7b-8fb6-d663479938fe
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: questAcceptedEvil
+        ID: 9f6e25b6-69be-4cb3-802b-c751e987e02f
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 1
+      Value: 0
+    Modifications: []
+    Rule:
+      Name: ValveChecker
+      ID: 1e6217eb-abf8-44b6-904c-381789c86591
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 0
+        Object: {fileID: 0}
+      Triggers:
+      - Name: EvilReplique1
+        ID: 780cb905-6ba9-438c-b5d9-da6d44f60c51
+        Usages: 0
+        Once: 0
+        Criterias:
+        - Fact:
+            Name: questAcceptedEvil
+            ID: 9f6e25b6-69be-4cb3-802b-c751e987e02f
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 2
+          Value: 1
+        - Fact:
+            Name: questDiscard
+            ID: ae85ba42-518a-4786-9b3e-458c1f00cda3
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 3
+          Value: 1
+        - Fact:
+            Name: questAccepted
+            ID: d78c903f-8062-4212-8450-01113393f676
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 3
+          Value: 1
+        Modifications:
+        - Fact:
+            Name: ValveClosed
+            ID: 9d1eb004-6ceb-47ef-b72f-89b6696227e8
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 1
+          Value: 1
+        - Fact:
+            Name: questDoneEvil
+            ID: bd885d44-f60b-43af-95c2-8cd2b14be23c
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 1
+          Value: 1
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: 813e317f83f458643bf29e8707929cad, type: 2}
+      - Name: EvilFinalReplique
+        ID: 0b24a6b0-beff-4c1d-ad77-70b6bf6820c0
+        Usages: 0
+        Once: 0
+        Criterias:
+        - Fact:
+            Name: ValveClosed
+            ID: 9d1eb004-6ceb-47ef-b72f-89b6696227e8
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 2
+          Value: 1
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                        Type: 0
+                      Triggers: []
+                    Type: 0
+                    Object: {fileID: 0}
+                  Triggers: []
+                Type: 0
+                Object: {fileID: 0}
+              Triggers: []
+            Type: 0
+            Object: {fileID: 0}
+          Triggers: []
+        Type: 1
+        Object: {fileID: 11400000, guid: aba8e55ea09aa6e4b9834e3965e44f05, type: 2}
+    Type: 0
+    Object: {fileID: 0}
+  Rules:
+  - Name: PaperChecker
+    ID: e9b6f3f2-44b2-465f-b7cb-882e9983b61c
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: NumberOfPapers
+        ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 3
+      Value: 5
+    Modifications: []
+    TriggeredBy:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 0
+      Object: {fileID: 0}
+    Triggers:
+    - Name: PaperPickUp1
+      ID: ab08d420-5003-437a-b3f8-b2799b56e45e
+      Usages: 0
+      Once: 1
+      Criterias: []
+      Modifications:
+      - Fact:
+          Name: NumberOfPapers
+          ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 1
+        Value: 1
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: 06d2da23cf498364481a4f547e4c8d5c, type: 2}
+    - Name: PaperPickUp2
+      ID: 4a866425-6803-4755-9010-897a69478d34
+      Usages: 0
+      Once: 1
+      Criterias: []
+      Modifications:
+      - Fact:
+          Name: NumberOfPapers
+          ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 1
+        Value: 1
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: 30363753e5e8c92458ef65b40cdd560e, type: 2}
+    - Name: PaperPickUp3
+      ID: deaa5a84-1d52-473f-8910-94eb95162832
+      Usages: 0
+      Once: 1
+      Criterias: []
+      Modifications:
+      - Fact:
+          Name: NumberOfPapers
+          ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 1
+        Value: 1
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: 30700a7e5599a094ab473acdade20bf6, type: 2}
+    - Name: PaperPickUp4
+      ID: 65debca3-9167-43d1-989c-ae87013f9ebe
+      Usages: 0
+      Once: 1
+      Criterias: []
+      Modifications:
+      - Fact:
+          Name: NumberOfPapers
+          ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 1
+        Value: 1
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: 9e6cefa362fd81d41ad6e299cb409ddc, type: 2}
+    - Name: PaperPickUp5
+      ID: cd36ae32-8785-4a0c-9c66-2e95276749d5
+      Usages: 0
+      Once: 1
+      Criterias: []
+      Modifications:
+      - Fact:
+          Name: NumberOfPapers
+          ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 1
+        Value: 1
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: 43484aa28c80bcd458ed470c163acc66, type: 2}
+  - Name: YESFinal_Checker
+    ID: 9699b710-5f6f-47ef-9fa6-1a1133bba171
+    Usages: 0
+    Once: 0
+    Criterias:
+    - Fact:
+        Name: questAccepted
+        ID: d78c903f-8062-4212-8450-01113393f676
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 2
+      Value: 1
+    - Fact:
+        Name: questDiscard
+        ID: ae85ba42-518a-4786-9b3e-458c1f00cda3
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 3
+      Value: 0
+    - Fact:
+        Name: questAcceptedEvil
+        ID: 9f6e25b6-69be-4cb3-802b-c751e987e02f
+        Usages: 0
+        Once: 0
+        Value: 0
+      Type: 3
+      Value: 0
+    Modifications: []
+    TriggeredBy:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 0
+      Object: {fileID: 0}
+    Triggers:
+    - Name: YESFinal1
+      ID: 81bcbf42-f31f-4c30-922c-defa1cf047c4
+      Usages: 0
+      Once: 0
+      Criterias:
+      - Fact:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 2
+        Value: 3
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: 880b61d61b458cb469dc26201195df0a, type: 2}
+    - Name: YESFinal2
+      ID: 80ecb202-cd19-415e-a11d-e91cd189e190
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: 4b27474b2ffc2004dad28397cb16e5ab, type: 2}
+    - Name: YESFinal3
+      ID: 70e66014-e8f8-4576-a6fe-f5ff4fac8ee3
+      Usages: 0
+      Once: 0
+      Criterias:
+      - Fact:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 0
+        Value: 0
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: 8b11987f4fe2f0b4c85fda74043e358a, type: 2}
+    - Name: YESNotEnough1
+      ID: bf9e1dd0-9bab-4fb7-8ecf-658e31f87f30
+      Usages: 0
+      Once: 0
+      Criterias:
+      - Fact:
+          Name: NumberOfPapers
+          ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 3
+        Value: 3
+      - Fact:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 2
+        Value: 1
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: 3764f04e5aa561d4588643dfc080310d, type: 2}
+    - Name: YESNotEnough2
+      ID: c42a5a09-b89f-43e7-a067-1885e4e7b5b0
+      Usages: 0
+      Once: 0
+      Criterias:
+      - Fact:
+          Name: NumberOfPapers
+          ID: 9d3b383f-d94c-4da0-83f7-6a1b6d7339ce
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 3
+        Value: 1
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 0}
+  - Name: TrimsDialogueRule
+    ID: 2db535e0-3e5e-4274-8bcb-b9c650cb7879
+    Usages: 0
+    Once: 0
+    Criterias: []
+    Modifications: []
+    TriggeredBy:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 0
+      Object: {fileID: 0}
+    Triggers:
+    - Name: StartCoctailQuest
+      ID: 0e2485c9-2a03-4bd9-98e8-a8b709dd702f
+      Usages: 0
+      Once: 0
+      Criterias:
+      - Fact:
+          Name: questAccepted
+          ID: d78c903f-8062-4212-8450-01113393f676
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 5
+        Value: 0
+      - Fact:
+          Name: questDiscard
+          ID: ae85ba42-518a-4786-9b3e-458c1f00cda3
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 5
+        Value: 0
+      - Fact:
+          Name: questAcceptedEvil
+          ID: 9f6e25b6-69be-4cb3-802b-c751e987e02f
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 5
+        Value: 0
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: cf8d5fd228255734098a897055504293, type: 2}
+    - Name: YESFinal
+      ID: b1356a88-f0a9-444f-ab4b-976ea16ce571
+      Usages: 0
+      Once: 0
+      Criterias:
+      - Fact:
+          Name: questAccepted
+          ID: d78c903f-8062-4212-8450-01113393f676
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 2
+        Value: 1
+      Modifications: []
+      Rule:
+        Name: YESFinal_Checker
+        ID: 9699b710-5f6f-47ef-9fa6-1a1133bba171
+        Usages: 0
+        Once: 0
+        Criterias:
+        - Fact:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Value: 0
+          Type: 0
+          Value: 0
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers:
+        - Name: YESFinal1
+          ID: 81bcbf42-f31f-4c30-922c-defa1cf047c4
+          Usages: 0
+          Once: 0
+          Criterias:
+          - Fact:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Value: 0
+            Type: 2
+            Value: 3
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 1
+          Object: {fileID: 11400000, guid: 880b61d61b458cb469dc26201195df0a, type: 2}
+        - Name: YESFinal2
+          ID: 80ecb202-cd19-415e-a11d-e91cd189e190
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 1
+          Object: {fileID: 11400000, guid: 4b27474b2ffc2004dad28397cb16e5ab, type: 2}
+        - Name: YESFinal3
+          ID: 70e66014-e8f8-4576-a6fe-f5ff4fac8ee3
+          Usages: 0
+          Once: 0
+          Criterias:
+          - Fact:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Value: 0
+            Type: 0
+            Value: 0
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 1
+          Object: {fileID: 11400000, guid: 8b11987f4fe2f0b4c85fda74043e358a, type: 2}
+      Type: 0
+      Object: {fileID: 0}
+    - Name: FinalEvil
+      ID: 83784a56-a8d2-40c6-9294-48744101e69f
+      Usages: 0
+      Once: 0
+      Criterias:
+      - Fact:
+          Name: questAccepted
+          ID: d78c903f-8062-4212-8450-01113393f676
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 3
+        Value: 1
+      - Fact:
+          Name: questAcceptedEvil
+          ID: 9f6e25b6-69be-4cb3-802b-c751e987e02f
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 2
+        Value: 1
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: c668f5f0ce1a74c45a82921450475263, type: 2}
+    - Name: FinalNo
+      ID: 221dfb55-239f-43ad-860c-1c710949fee5
+      Usages: 0
+      Once: 0
+      Criterias:
+      - Fact:
+          Name: questAccepted
+          ID: d78c903f-8062-4212-8450-01113393f676
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 3
+        Value: 1
+      - Fact:
+          Name: questDiscard
+          ID: ae85ba42-518a-4786-9b3e-458c1f00cda3
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 2
+        Value: 1
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: c668f5f0ce1a74c45a82921450475263, type: 2}
+  - Name: ValveChecker
+    ID: 1e6217eb-abf8-44b6-904c-381789c86591
+    Usages: 0
+    Once: 0
+    Criterias: []
+    Modifications: []
+    TriggeredBy:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 0
+      Object: {fileID: 0}
+    Triggers:
+    - Name: EvilReplique1
+      ID: 780cb905-6ba9-438c-b5d9-da6d44f60c51
+      Usages: 0
+      Once: 0
+      Criterias:
+      - Fact:
+          Name: questAcceptedEvil
+          ID: 9f6e25b6-69be-4cb3-802b-c751e987e02f
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 2
+        Value: 1
+      - Fact:
+          Name: questDiscard
+          ID: ae85ba42-518a-4786-9b3e-458c1f00cda3
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 3
+        Value: 1
+      - Fact:
+          Name: questAccepted
+          ID: d78c903f-8062-4212-8450-01113393f676
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 3
+        Value: 1
+      Modifications:
+      - Fact:
+          Name: ValveClosed
+          ID: 9d1eb004-6ceb-47ef-b72f-89b6696227e8
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 1
+        Value: 1
+      - Fact:
+          Name: questDoneEvil
+          ID: bd885d44-f60b-43af-95c2-8cd2b14be23c
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 1
+        Value: 1
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: 813e317f83f458643bf29e8707929cad, type: 2}
+    - Name: EvilFinalReplique
+      ID: 0b24a6b0-beff-4c1d-ad77-70b6bf6820c0
+      Usages: 0
+      Once: 0
+      Criterias:
+      - Fact:
+          Name: ValveClosed
+          ID: 9d1eb004-6ceb-47ef-b72f-89b6696227e8
+          Usages: 0
+          Once: 0
+          Value: 0
+        Type: 2
+        Value: 1
+      Modifications: []
+      Rule:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        TriggeredBy:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          Rule:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            TriggeredBy:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              Rule:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                TriggeredBy:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  Rule:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    TriggeredBy:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      Rule:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Type: 0
+                      Object: {fileID: 0}
+                    Triggers: []
+                  Type: 0
+                  Object: {fileID: 0}
+                Triggers: []
+              Type: 0
+              Object: {fileID: 0}
+            Triggers: []
+          Type: 0
+          Object: {fileID: 0}
+        Triggers: []
+      Type: 1
+      Object: {fileID: 11400000, guid: aba8e55ea09aa6e4b9834e3965e44f05, type: 2}

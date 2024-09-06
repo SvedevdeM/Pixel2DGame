@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710377662ee5c24c99a823c421eb0b2, type: 3}
+  m_Name: FirstDayWelcomeSpeechGraph
+  m_EditorClassIdentifier: 
+  FileName: FirstDayWelcomeSpeech
+  Groups: []
+  Nodes:
+  - ID: 655711ab-157d-41ec-91df-4444df372811
+    Name: CP.STORY.FIRSTDAYATCOLLEGE_WELCOMEDIALOGUE_0001
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 5449c164ff1679b4bbf5a4565da6a1c7, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 0bb4b788-b5b9-4249-b6a5-30f7e74b7a66
+    GroupID: 
+    Type: 1
+    Position: {x: -87, y: 90}
+  - ID: 0bb4b788-b5b9-4249-b6a5-30f7e74b7a66
+    Name: CP.STORY.FIRSTDAYATCOLLEGE_WELCOMEDIALOGUE_0002
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 5449c164ff1679b4bbf5a4565da6a1c7, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 8c83054f-80e7-4225-8473-234fd86395b2
+    GroupID: 
+    Type: 1
+    Position: {x: 144, y: 324}
+  - ID: 8c83054f-80e7-4225-8473-234fd86395b2
+    Name: CP.STORY.FIRSTDAYATCOLLEGE_WELCOMEDIALOGUE_0003
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 5449c164ff1679b4bbf5a4565da6a1c7, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: d7f49b62-d0d9-4f5f-a28e-aa0178c1d666
+    GroupID: 
+    Type: 1
+    Position: {x: 486, y: 88}
+  - ID: d7f49b62-d0d9-4f5f-a28e-aa0178c1d666
+    Name: CP.STORY.FIRSTDAYATCOLLEGE_WELCOMEDIALOGUE_0004
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 5449c164ff1679b4bbf5a4565da6a1c7, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 6750f0af-b0b1-4933-b8e7-a41cdd86ebc8
+    GroupID: 
+    Type: 1
+    Position: {x: 768, y: 335}
+  - ID: 6750f0af-b0b1-4933-b8e7-a41cdd86ebc8
+    Name: CP.STORY.FIRSTDAYATCOLLEGE_WELCOMEDIALOGUE_0005
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 5449c164ff1679b4bbf5a4565da6a1c7, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: ae4ef67d-c183-44d0-b821-0736fea73505
+    GroupID: 
+    Type: 1
+    Position: {x: 1057, y: 83}
+  - ID: ae4ef67d-c183-44d0-b821-0736fea73505
+    Name: CP.STORY.FIRSTDAYATCOLLEGE_WELCOMEDIALOGUE_0006
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 5449c164ff1679b4bbf5a4565da6a1c7, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: ca4119ce-eb9f-42fc-911b-7467a83c6b5c
+    GroupID: 
+    Type: 1
+    Position: {x: 1269, y: 343}
+  - ID: ca4119ce-eb9f-42fc-911b-7467a83c6b5c
+    Name: CP.STORY.FIRSTDAYATCOLLEGE_WELCOMEDIALOGUE_0007
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 5449c164ff1679b4bbf5a4565da6a1c7, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: a85ac264-e92c-4ca6-9b38-8d94a5f1c59d
+    GroupID: 
+    Type: 1
+    Position: {x: 1517, y: 97}
+  - ID: a85ac264-e92c-4ca6-9b38-8d94a5f1c59d
+    Name: CP.STORY.FIRSTDAYATCOLLEGE_WELCOMEDIALOGUE_0008
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 5449c164ff1679b4bbf5a4565da6a1c7, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 1
+    Position: {x: 1826, y: 344}
+  OldGroupNames: []
+  OldUngroupedNodeNames:
+  - CP.STORY.FIRSTDAYATCOLLEGE_WELCOMEDIALOGUE_0001
+  - CP.STORY.FIRSTDAYATCOLLEGE_WELCOMEDIALOGUE_0002
+  - CP.STORY.FIRSTDAYATCOLLEGE_WELCOMEDIALOGUE_0003
+  - CP.STORY.FIRSTDAYATCOLLEGE_WELCOMEDIALOGUE_0004
+  - CP.STORY.FIRSTDAYATCOLLEGE_WELCOMEDIALOGUE_0005
+  - CP.STORY.FIRSTDAYATCOLLEGE_WELCOMEDIALOGUE_0006
+  - CP.STORY.FIRSTDAYATCOLLEGE_WELCOMEDIALOGUE_0007
+  - CP.STORY.FIRSTDAYATCOLLEGE_WELCOMEDIALOGUE_0008
+  OldGroupedNodeNames:
+    list: []

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710377662ee5c24c99a823c421eb0b2, type: 3}
+  m_Name: UsualTalkWithValentia2Graph
+  m_EditorClassIdentifier: 
+  FileName: UsualTalkWithValentia2
+  Groups: []
+  Nodes:
+  - ID: 8139f657-dc87-48ec-a69e-7a4473a13bdb
+    Name: CP.USUAL.TALKWITHVALENTIA_0005
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 6ed66c3cc6db9734bbd01037ac81b756, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 1
+    Position: {x: 1669, y: 206}
+  - ID: d88a9ead-ede6-48d9-a129-60f38b3547f7
+    Name: CP.KN_USUAL.TALKWITHVALENTIA_0004
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: c1714b24-1fd6-4d1a-9566-f51cad0293d7
+    GroupID: 
+    Type: 1
+    Position: {x: 862, y: -4}
+  - ID: c1714b24-1fd6-4d1a-9566-f51cad0293d7
+    Name: CP.USUAL.TALKWITHVALENTIA_0004
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 6ed66c3cc6db9734bbd01037ac81b756, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: ebd12dd9-50e5-4182-8999-0cf08e6f7e32
+    GroupID: 
+    Type: 1
+    Position: {x: 1144, y: 188}
+  - ID: ebd12dd9-50e5-4182-8999-0cf08e6f7e32
+    Name: CP.KN_USUAL.TALKWITHVALENTIA_0005
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 8139f657-dc87-48ec-a69e-7a4473a13bdb
+    GroupID: 
+    Type: 1
+    Position: {x: 1413, y: -11}
+  OldGroupNames: []
+  OldUngroupedNodeNames:
+  - CP.USUAL.TALKWITHVALENTIA_0005
+  - CP.KN_USUAL.TALKWITHVALENTIA_0004
+  - CP.USUAL.TALKWITHVALENTIA_0004
+  - CP.KN_USUAL.TALKWITHVALENTIA_0005
+  OldGroupedNodeNames:
+    list: []

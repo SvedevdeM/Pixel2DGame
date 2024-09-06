@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710377662ee5c24c99a823c421eb0b2, type: 3}
+  m_Name: ParkingCutsceneDialogueGraph
+  m_EditorClassIdentifier: 
+  FileName: ParkingCutsceneDialogue
+  Groups: []
+  Nodes:
+  - ID: f0f828dc-a145-4053-a772-0b89632c0eb1
+    Name: "CP.STORY.FIRSTDAY_PAR\u041AINGCUTSCENE_0001"
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: c6e0f7d8eb953d14d9240be872a476e8, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: ced95620-9f74-40d0-9b75-64c857033dc5
+    GroupID: 
+    Type: 1
+    Position: {x: 82, y: 361}
+  - ID: 66fce117-a2b0-416e-99ac-32b63917d66d
+    Name: "CP.STORY.FIRSTDAY_PAR\u041AINGCUTSCENE_0003"
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: c6e0f7d8eb953d14d9240be872a476e8, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 6f94dd4e-ae57-4619-9288-7ba9ecacf03e
+    GroupID: 
+    Type: 1
+    Position: {x: 601, y: 362}
+  - ID: ced95620-9f74-40d0-9b75-64c857033dc5
+    Name: "CP.STORY.FIRSTDAY_PAR\u041AINGCUTSCENE_0002"
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 5449c164ff1679b4bbf5a4565da6a1c7, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 66fce117-a2b0-416e-99ac-32b63917d66d
+    GroupID: 
+    Type: 1
+    Position: {x: 394, y: 140}
+  - ID: 6f94dd4e-ae57-4619-9288-7ba9ecacf03e
+    Name: "CP.STORY.FIRSTDAY_PAR\u041AINGCUTSCENE_0004"
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 5449c164ff1679b4bbf5a4565da6a1c7, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 1
+    Position: {x: 845, y: 141}
+  OldGroupNames: []
+  OldUngroupedNodeNames:
+  - "CP.STORY.FIRSTDAY_PAR\u041AINGCUTSCENE_0001"
+  - "CP.STORY.FIRSTDAY_PAR\u041AINGCUTSCENE_0003"
+  - "CP.STORY.FIRSTDAY_PAR\u041AINGCUTSCENE_0002"
+  - "CP.STORY.FIRSTDAY_PAR\u041AINGCUTSCENE_0004"
+  OldGroupedNodeNames:
+    list: []

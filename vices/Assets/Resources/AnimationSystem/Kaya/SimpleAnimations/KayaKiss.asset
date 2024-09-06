@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2671bd653334d748b8e648c45cbec2c, type: 3}
+  m_Name: KayaKiss
+  m_EditorClassIdentifier: 
+  Name: 
+  cels:
+  - sprite: {fileID: 2042279662, guid: f40d64d809773c44fa30bf7d5b4fac07, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -23271590, guid: f40d64d809773c44fa30bf7d5b4fac07, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -1271844218, guid: f40d64d809773c44fa30bf7d5b4fac07, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 2067953206, guid: f40d64d809773c44fa30bf7d5b4fac07, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -1902013856, guid: f40d64d809773c44fa30bf7d5b4fac07, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 341429802, guid: f40d64d809773c44fa30bf7d5b4fac07, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -1138654668, guid: f40d64d809773c44fa30bf7d5b4fac07, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 357437628, guid: f40d64d809773c44fa30bf7d5b4fac07, type: 3}
+    drivers:
+      values: 
+      keys: []
+  controlDriverNew:
+    name: 
+    controll: {fileID: 0}
+    autoIncrement: 1
+    percentageBased: 0
+    guid: 142249d9-d8be-4abf-81cc-7d3d2217c88f
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

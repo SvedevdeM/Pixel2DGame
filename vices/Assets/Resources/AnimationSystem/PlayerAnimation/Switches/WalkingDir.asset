@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78fdd7c50a0553448335fa47abd4178, type: 3}
+  m_Name: WalkingDir
+  m_EditorClassIdentifier: 
+  Name: 
+  nodes:
+  - {fileID: 11400000, guid: d3724f9d40e8aec4286186a94e5551cc, type: 2}
+  - {fileID: 11400000, guid: 23b64c83aacf21140927d75f85b6b274, type: 2}
+  - {fileID: 11400000, guid: 526375ab573585542b941eb2f6077012, type: 2}
+  controlDriver:
+    name: 
+    controll: {fileID: 11400000, guid: 87c4be2b1b7ece44db3b3e363c016c6a, type: 2}
+    autoIncrement: 0
+    percentageBased: 0
+    guid: 0c4d6514-6669-4ee8-9950-e89bbf4120ff
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

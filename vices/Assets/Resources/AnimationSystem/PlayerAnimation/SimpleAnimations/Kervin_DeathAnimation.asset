@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2671bd653334d748b8e648c45cbec2c, type: 3}
+  m_Name: Kervin_DeathAnimation
+  m_EditorClassIdentifier: 
+  Name: 
+  cels:
+  - sprite: {fileID: 2139894192, guid: 208a94b75bf682a42855704adaa20a57, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 192576002, guid: 208a94b75bf682a42855704adaa20a57, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1182961098, guid: 208a94b75bf682a42855704adaa20a57, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 266419586, guid: 208a94b75bf682a42855704adaa20a57, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 791723061, guid: 208a94b75bf682a42855704adaa20a57, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 733055309, guid: 208a94b75bf682a42855704adaa20a57, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1444227293, guid: 208a94b75bf682a42855704adaa20a57, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1105541334, guid: 208a94b75bf682a42855704adaa20a57, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -1537465167, guid: 208a94b75bf682a42855704adaa20a57, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -767566516, guid: 208a94b75bf682a42855704adaa20a57, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 626959164, guid: 208a94b75bf682a42855704adaa20a57, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -1590322197, guid: 208a94b75bf682a42855704adaa20a57, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1462151735, guid: 208a94b75bf682a42855704adaa20a57, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1177330744, guid: 208a94b75bf682a42855704adaa20a57, type: 3}
+    drivers:
+      values: 
+      keys: []
+  controlDriverNew:
+    name: 
+    controll: {fileID: 0}
+    autoIncrement: 1
+    percentageBased: 0
+    guid: b6fbf72f-cbd5-453a-9f34-b148e4b780f2
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

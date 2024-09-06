@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d9c9581bb8e9de43b713272afd730bf, type: 3}
+  m_Name: CampusSceneData
+  m_EditorClassIdentifier: 
+  Name: Campus
+  Scenes:
+  - {fileID: 102900000, guid: 9ef8f0f8827236949a1f090c232b35ab, type: 3}

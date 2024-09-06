@@ -1,0 +1,37 @@
+ID	GROUP	SUB_GROUP	LOCALIZATION_KEY	RU	ENG	FRA	DEU	SPA	POL	POR	CHI	ITA	KOR
+1	CP	SQUEST	COCTAIL_START_0001	Помоги мне, умоляю!	Somebody help!								
+2	CP	SQUEST	COCTAIL_START_0002	Эй, кто там? Мне нужна помощь!	Hey there! I need help!								
+3	CP	SQUEST	COCTAIL_START_0003	Мои одногруппники устроили мне чертовски глупый розыгрыш.	My classmates stupidly prank me!								
+4	CP	SQUEST	COCTAIL_START_0004	Мы поспорили кто больше выпьет молочного коктейля. Проигравшие сбривают брови. 	We had a bet on who would drink the most milkshake. Losers shave off their eyebrows.								
+5	CP	SQUEST	COCTAIL_START_0005	Эти идиоты добавили сразу несколько пакетов со слабительным в мой чертов коктейль. И заранее вытащили бумагу из всех кабинок, я уже проверил.	Those idiots put several bags of laxatives in my damn cocktail at once. And they took the paper out of all the toilet stalls in advance. I've already checked.								
+6	CP	SQUEST	COCTAIL_START_0006	Нет, дружище, мне нужно как минимум три рулона, судя по всему.	No, buddy, I need at least three rolls, apparently.								
+7	CP	KN_SQUEST	COCTAIL_START_0002	Да, я тут. Что у тебя там?	I hear you. What's happen?								
+8	CP	KN_SQUEST	COCTAIL_START_0004	Так и с чем тебе нужна моя помощь?	So what kind of help do you need?								
+9	CP	KN_SQUEST	COCTAIL_START_0005	Мда, шутки уровня b,  так что мне просто принести тебе рулон бумаги?	Should I just get you a roll of paper?								
+10	CP	CH_SQUEST	COCTAIL_START_YES_0001	Согласиться помочь.	Agree to help.								
+11	CP	CH_SQUEST	COCTAIL_START_NO_0001	Отказать.	Refuse.								
+12	CP	CH_SQUEST	COCTAIL_START_EVIL_0001	Усугубить ситуацию!	Make the situation worse!								
+13	CP	KN_SQUEST	COCTAIL_START_YES_0001	Держись, друг, я скоро.	Wait for me, friend, I'll back in a moment.								
+14	CP	KN_SQUEST	COCTAIL_START_NO_0001	Думаю, тебе просто стоит дождаться уборщика.	I think you should just wait for the janitor.								
+15	CP	KN_SQUEST	COCTAIL_START_EVIL_0001	Забавно, пожалуй перекрою еще и воду.	That's funny. I think I'll block the water too.								
+16	CP	KN_SQUEST	COCTAIL_YES_0001	Первая есть, еще две осталось.	The first one is there, there are two more left.								
+17	CP	KN_SQUEST	COCTAIL_YES_0002	О, а вот и вторая. Еще бы одну.	Oh, and here's the second one. One more left.								
+18	CP	KN_SQUEST	COCTAIL_YES_0003	Ну, план-минимум выполнен, можно теперь и вернуться.	Well, the minimum plan has been completed, and now I can go back.								
+19	CP	KN_SQUEST	COCTAIL_YES_0004	Думаю и четвертая лишней не будет.	I think the fourth one will not be extra.								
+20	CP	KN_SQUEST	COCTAIL_YES_0005	Пять! Теперь точно хватит и еще останется, пора нести их этому засранцу.	Five! Now there's definitely enough. It's time to go back.								
+21	CP	SQUEST	COCTAIL_YES_0006	Спасибо что выручил, надеюсь мне хватит.	Thanks for helping me out, I hope I've had enough.								
+22	CP	SQUEST	COCTAIL_YES_0007	Спасибо огромное этого точно хватит! Кстати, меня зовут Трим.	Thanks a lot, that's definitely enough! By the way, my name is Trim.								
+23	CP	SQUEST	COCTAIL_YES_0008	Ой, друг, я твой должник, зайди ко мне в комнату, я живу в первом общежитии, 2 этаж, 7 комната. Дверь не заперта.	Oh, friend, I owe you, come into my room, I live in the first dormitory, 2nd floor, room 7. The door is not locked.								
+24	CP	SQUEST	COCTAIL_YES_0009	 На столе тебя будет ждать комикс, я нашел его вчера. Меня, кстати, зовут Трим!	There will be a comic book waiting for you on the table, I found it yesterday. By the way, my name is Trim!								
+25	CP	KN_SQUEST	COCTAIL_YES_0006	Не за что, надеюсь, тебе быстро станет лучше.	You're welcome, I hope you get better quickly.								
+26	CP	KN_SQUEST	COCTAIL_YES_0007	Не за что, меня зовут Кервин, можно просто Кен.	You're welcome, my name is Kerwin, you can just call me Ken.								
+27	CP	KN_SQUEST	COCTAIL_YES_0009	О, звучит отлично, спасибо! Меня зовут Кервин, можно просто Кен.	Oh, that sounds great, thanks! My name is Kerwin, you can just call me Ken.								
+28	CP	SQUEST	COCTAIL_NO_0001	Наверное, ты прав...	You're probably right...								
+29	CP	KN_SQUEST	COCTAIL_EVIL_0001	Где же этот вентиль, должно быть на техническом этаже.	Where is this valve, it should be on the technical floor.								
+30	CP	KN_SQUEST	COCTAIL_EVIL_0002	Должно быть это тот что мне нужен!	Most likely this is the one I need!								
+31	CP	KN_SQUEST	COCTAIL_EVIL_0003	Нет ничего лучше чем поддержать хорошую шутку!	There's nothing better than supporting a good joke!								
+32	CP	SQUEST	COCTAIL_YES_NOTENOUGH_0001	Спасибо что ищешь бумагу для меня, но этого недостаточно. Нужно как минимум три рулона.	Thanks for looking for paper for me, but it's not enough. I need at least three rolls.								
+33	CP	SQUEST	COCTAIL_EVIL_NO_0001	Не беспокой меня, я дождусь кого нибудь другого.	Don't disturb me. I'll wait for someone else.								
+34	CP	SQUEST	COCTAIL_YES_NOTENOUGH_0002	Пожалуйста поторопись, я так мечтаю выбраться отсюда.	Please hurry up, I'm so looking forward to getting out of here.								
+35	CP	SQUEST	COCTAIL_BAIT_0001	Ты видел как он выпучил глаза перед тем как побежать в туалет? Это было незабываемо!	Did you see how his eyes bulged before he ran to the toilet? It was unforgettable!								
+36	CP	SQUEST	COCTAIL_BAIT_0002	Да, надеюсь трех пакетов слабительного достаточно, что бы он просидел там до конца года!	Yes, I hope three packs of laxatives are enough to keep him there for the rest of the year!								

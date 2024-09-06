@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710377662ee5c24c99a823c421eb0b2, type: 3}
+  m_Name: CoctailQuestBaitGraph
+  m_EditorClassIdentifier: 
+  FileName: CoctailQuestBait
+  Groups: []
+  Nodes:
+  - ID: 1c29e8b6-47d5-45d8-8105-3d825f316a18
+    Name: CP.SQUEST.COCTAIL_BAIT_0001
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 92024be77b64c20458c62e80fe8b6875, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 55a8fab8-40d4-4850-b808-0bf77075807b
+    GroupID: 
+    Type: 1
+    Position: {x: 129, y: 137}
+  - ID: 55a8fab8-40d4-4850-b808-0bf77075807b
+    Name: CP.SQUEST.COCTAIL_BAIT_0002
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: ec297bb4601a84b4e9499d94544afcd1, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 1
+    Position: {x: 400, y: 30}
+  OldGroupNames: []
+  OldUngroupedNodeNames:
+  - CP.SQUEST.COCTAIL_BAIT_0001
+  - CP.SQUEST.COCTAIL_BAIT_0002
+  OldGroupedNodeNames:
+    list: []

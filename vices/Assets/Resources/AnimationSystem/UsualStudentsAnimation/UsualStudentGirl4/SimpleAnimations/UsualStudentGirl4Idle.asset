@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2671bd653334d748b8e648c45cbec2c, type: 3}
+  m_Name: UsualStudentGirl4Idle
+  m_EditorClassIdentifier: 
+  Name: 
+  cels:
+  - sprite: {fileID: 2096715738, guid: cba0f46d6da530043b26fd7c70174ffa, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -1130295680, guid: cba0f46d6da530043b26fd7c70174ffa, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 450728847, guid: cba0f46d6da530043b26fd7c70174ffa, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1328742615, guid: cba0f46d6da530043b26fd7c70174ffa, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: -2018515541, guid: cba0f46d6da530043b26fd7c70174ffa, type: 3}
+    drivers:
+      values: 
+      keys: []
+  - sprite: {fileID: 1603611300, guid: cba0f46d6da530043b26fd7c70174ffa, type: 3}
+    drivers:
+      values: 
+      keys: []
+  controlDriverNew:
+    name: 
+    controll: {fileID: 0}
+    autoIncrement: 1
+    percentageBased: 0
+    guid: 19f3d023-450c-4b0f-9b88-beeb3372e0b2
+  drivers:
+    values: 
+    keys: []
+  IsStartingNode: 0

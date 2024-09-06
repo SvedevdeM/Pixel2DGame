@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b14a46de6ce238489b3e9309c4d902d, type: 3}
+  m_Name: UsualTalkWithSylvester1
+  m_EditorClassIdentifier: 
+  FileName: UsualTalkWithSylvester1
+  Groups:
+    list: []
+  UngroupedDialogues:
+  - {fileID: 11400000, guid: 3eda93b348e151447817f4b6346d3b08, type: 2}
+  - {fileID: 11400000, guid: 3a38a3fa905db6c4bba5ead4ebf33222, type: 2}
+  - {fileID: 11400000, guid: a27dda4ce5ac5b545b51e4726169bd45, type: 2}
+  - {fileID: 11400000, guid: 5c640e186cead0f4284d679100ce9393, type: 2}

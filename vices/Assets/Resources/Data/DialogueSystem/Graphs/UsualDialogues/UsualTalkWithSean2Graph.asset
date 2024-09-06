@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710377662ee5c24c99a823c421eb0b2, type: 3}
+  m_Name: UsualTalkWithSean2Graph
+  m_EditorClassIdentifier: 
+  FileName: UsualTalkWithSean2
+  Groups: []
+  Nodes:
+  - ID: d88a9ead-ede6-48d9-a129-60f38b3547f7
+    Name: CP.KN_USUAL.TALKWITHSEAN_0004
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 490d6c644c35171469e38d94fb2b2e07, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: 
+    GroupID: 
+    Type: 1
+    Position: {x: 858, y: 64}
+  - ID: 41ebbcaf-9d6a-4da6-9ff8-dc3497627b3c
+    Name: CP.USUAL.TALKWITHSEAN_0004
+    Text: Some text of the dialogue
+    Actor: {fileID: 11400000, guid: 1392774581f775f4485331f8e48912d4, type: 2}
+    Event: {fileID: 0}
+    Choices:
+    - Text: Next Node
+      NodeID: d88a9ead-ede6-48d9-a129-60f38b3547f7
+    GroupID: 
+    Type: 1
+    Position: {x: 592, y: 183}
+  OldGroupNames: []
+  OldUngroupedNodeNames:
+  - CP.KN_USUAL.TALKWITHSEAN_0004
+  - CP.USUAL.TALKWITHSEAN_0004
+  OldGroupedNodeNames:
+    list: []
